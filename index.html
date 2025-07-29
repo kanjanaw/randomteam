@@ -23,7 +23,7 @@
 
 <body>
     <div class="container my-5">
-        <div class="row g-5">
+        <div class="row">
             <div class="col-6">
                 <div class="d-flex gap-2">
                     <div class="character-block">
@@ -84,12 +84,28 @@
         </div>
     </div>
 
+
     
 <div class="container my-5">
   <div class="row g-5" id="character-row"></div>
 </div>
 
 <!-- Template card -->
+<template id="character-template">
+  <div class="character-block">
+    <div class="character-block-img">
+      <img class="img-fluid">
+      <img class="elemental">
+    </div>
+    <div class="name"></div>
+  </div>
+</template>
+
+
+<div class="container-fluid my-5">
+  <div id="character-container" class="d-flex flex-wrap gap-2"></div>
+</div>
+
 <template id="character-template">
   <div class="character-block">
     <div class="character-block-img">
@@ -114,18 +130,19 @@ fetch('src/characters.json')
     const row = document.getElementById('character-row');
     const template = document.getElementById('character-template');
 
-    const showCharacters = characters.slice(0, 8);
+    // ✅ สุ่มลำดับตัวละคร
+    const shuffled = characters.sort(() => 0.5 - Math.random());
+
+    // ✅ ดึง 8 ตัวแรกจากที่สุ่มแล้ว
+    const showCharacters = shuffled.slice(0, 8);
 
     for (let i = 0; i < showCharacters.length; i += 4) {
-      // สร้าง col
       const col = document.createElement('div');
       col.className = 'col-6';
 
-      // สร้าง flex wrapper
       const flex = document.createElement('div');
       flex.className = 'd-flex gap-2';
 
-      // group 4 ตัวในแต่ละ col
       showCharacters.slice(i, i + 4).forEach(char => {
         const clone = template.content.cloneNode(true);
 
@@ -134,13 +151,13 @@ fetch('src/characters.json')
         const elemImg = clone.querySelector('.elemental');
         const name = clone.querySelector('.name');
 
-        // ข้อมูลตัวละคร
+        // ✅ ข้อมูลตัวละคร
         charImg.src = char.Image;
         charImg.alt = char.Name;
         elemImg.src = `https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/${char.Elemental.toLowerCase()}.png`;
         name.textContent = char.Name;
 
-        // ใส่ class rarity
+        // ✅ ใส่ class rarity
         imgWrapper.classList.add(`rarity-${char.Rarity}`);
 
         flex.appendChild(clone);

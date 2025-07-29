@@ -13,7 +13,6 @@
     position: relative;
 }
 
-/* rarity background */
 .character-block-img.rarity-4 {
   background-image: url('https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bg/card-bg-4.png');
 }
