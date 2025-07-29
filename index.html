@@ -6,33 +6,151 @@
     <title>Random Team</title>
     <link rel="stylesheet" href="src/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </head>
 
+<style>
+    body {
+        background-color: #24252b;
+        font-family: 'Anuphan', sans-serif;
+    }
+</style>
+
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container my-5">
+        <div class="row g-5">
             <div class="col-6">
                 <div class="d-flex gap-2">
                     <div class="character-block">
-                        <img src="" alt="" class="img">
-                        <p class="name">name</p>
+                        <div class="character-block-img">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png" alt="" class="img-fluid">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/pyro.svg" class="elemental">
+                        </div>
+                        <div class="name">Amber</div>
                     </div>
-                    <div class="character-img"></div>
-                    <div class="character-img"></div>
-                    <div class="character-img"></div>
+                    <div class="character-block">
+                        <div class="character-block-img">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="name">Amber</div>
+                    </div>
+                    <div class="character-block">
+                        <div class="character-block-img">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="name">Amber</div>
+                    </div>
+                    <div class="character-block">
+                        <div class="character-block-img">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="name">Amber</div>
+                    </div>
                 </div>
             </div>
             <div class="col-6">
                 <div class="d-flex gap-2">
-                    <div class="character-img"></div>
-                    <div class="character-img"></div>
-                    <div class="character-img"></div>
-                    <div class="character-img"></div>
+                    <div class="character-block">
+                        <div class="character-block-img">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="name">Amber</div>
+                    </div>
+                    <div class="character-block">
+                        <div class="character-block-img">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="name">Amber</div>
+                    </div>
+                    <div class="character-block">
+                        <div class="character-block-img">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="name">Amber</div>
+                    </div>
+                    <div class="character-block">
+                        <div class="character-block-img">
+                            <img src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="name">Amber</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+    
+<div class="container my-5">
+  <div class="row g-5" id="character-row"></div>
+</div>
+
+<!-- Template card -->
+<template id="character-template">
+  <div class="character-block">
+    <div class="character-block-img">
+      <img class="img-fluid">
+      <img class="elemental">
+    </div>
+    <div class="name"></div>
+  </div>
+</template>
+
+
+
 </body>
 </html>
+
+
+
+<script>
+fetch('src/characters.json')
+  .then(res => res.json())
+  .then(characters => {
+    const row = document.getElementById('character-row');
+    const template = document.getElementById('character-template');
+
+    const showCharacters = characters.slice(0, 8);
+
+    for (let i = 0; i < showCharacters.length; i += 4) {
+      // สร้าง col
+      const col = document.createElement('div');
+      col.className = 'col-6';
+
+      // สร้าง flex wrapper
+      const flex = document.createElement('div');
+      flex.className = 'd-flex gap-2';
+
+      // group 4 ตัวในแต่ละ col
+      showCharacters.slice(i, i + 4).forEach(char => {
+        const clone = template.content.cloneNode(true);
+
+        const imgWrapper = clone.querySelector('.character-block-img');
+        const charImg = clone.querySelector('.img-fluid');
+        const elemImg = clone.querySelector('.elemental');
+        const name = clone.querySelector('.name');
+
+        // ข้อมูลตัวละคร
+        charImg.src = char.Image;
+        charImg.alt = char.Name;
+        elemImg.src = `https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/${char.Elemental.toLowerCase()}.png`;
+        name.textContent = char.Name;
+
+        // ใส่ class rarity
+        imgWrapper.classList.add(`rarity-${char.Rarity}`);
+
+        flex.appendChild(clone);
+      });
+
+      col.appendChild(flex);
+      row.appendChild(col);
+    }
+  })
+  .catch(err => console.error('Error loading JSON:', err));
+</script>
+
+
