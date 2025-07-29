@@ -1,0 +1,21 @@
+.character-img {
+    width: 100%;
+    height: 120px;
+    background-color: grey;
+}
+
+.character-block {
+    width: 100%;
+    height: 120px;
+    background-color: #121212;
+}
+
+.character-block .img {
+    width: 100%;
+    height: 120px;
+    background-color: grey;
+}
+.character-block .name {
+    text-align: center;
+    font-weight: 500;
+}
