@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Aeloria",
+    "image": "https://example.com/images/aeloria.png",
+    "rarity": 5,
+    "elemental": "Wind",
+    "weapon": "Bow",
+    "sexuality": "Straight",
+    "country": "Elaria",
+    "sustainable": true
+  },
+  {
+    "name": "Kaelthorn",
+    "image": "https://example.com/images/kaelthorn.png",
+    "rarity": 4,
+    "elemental": "Fire",
+    "weapon": "Sword",
+    "sexuality": "Bisexual",
+    "country": "Drakoria",
+    "sustainable": false
+  }
+]
