@@ -112,7 +112,7 @@
       <img class="img-fluid">
       <img class="elemental">
     </div>
-    <div class="name"></div>
+    <div class="name text-truncate"></div>
   </div>
 </template>
 
@@ -150,6 +150,7 @@ fetch('src/characters.json')
         const charImg = clone.querySelector('.img-fluid');
         const elemImg = clone.querySelector('.elemental');
         const name = clone.querySelector('.name');
+        name.classList.add('text-truncate');
 
         // ✅ ข้อมูลตัวละคร
         charImg.src = char.Image;
