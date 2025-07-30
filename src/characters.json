@@ -236,7 +236,7 @@
     "Elemental":"Hydro",
     "Weapon":"Bow",
     "Gender":"Male",
-    "Country":"Liyue",
+    "Country":"Snezhnaya",
     "Sustainable":false
   },
   {
@@ -836,7 +836,7 @@
     "Elemental":"Pyro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Country":"Snezhnaya",
     "Sustainable":false
   },
   {
@@ -1046,7 +1046,7 @@
     "Elemental":"Cryo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Country":"Other",
     "Sustainable":false
   },
   {
@@ -1056,7 +1056,7 @@
     "Elemental":"Electro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Country":"Nod-Krai",
     "Sustainable":false
   }
 ]
