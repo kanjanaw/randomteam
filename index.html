@@ -24,12 +24,12 @@
 
 <body>
     
-    <div class="container my-5">
-        <h4>template section</h4>
-        <div class="row g-5" id="character-row"></div>
-    </div>
+<div class="container my-5">
+    <h4>template section</h4>
+    <div class="row g-5" id="character-row"></div>
+</div>
 
-<template id="character-template">
+<template id="character-template-random">
   <div class="character-block">
     <div class="character-block-img">
       <img class="img-fluid">
@@ -43,9 +43,9 @@
 <div class="container my-5">
     <h4 class="fw-bold">Characters &nbsp;&nbsp;&nbsp;<span class="text-secondary h6">Showing 100 characters</span></h4>
     <hr>
-    <div class="d-flex">
+    <div class="d-flex justify-content-between">
         <input type="checkbox" class="btn-check" id="all" checked autocomplete="off">
-        <label class="btn btn-checkbox-icon text-light mr-1" for="all">All</label>
+        <label class="btn btn-checkbox-icon text-light mr-1" for="all">&nbsp;All&nbsp;</label>
 
         <input type="checkbox" class="btn-check" id="4star" autocomplete="off">
         <label class="btn btn-checkbox-icon text-purple" for="4star">4★</label>
@@ -182,47 +182,27 @@
         
     </div>
 
-    <div class="container mt-3 px-0">
-        <div class="row row-cols-10 g-2">
-            <div class="col">
-                <input type="checkbox" class="btn-check" id="traveler" autocomplete="off">
-                <label class="" for="traveler">
-                    <div class="character-block-img">
-                        <img class="img-fluid" src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png">
-                        <img class="elemental" src="https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/hydro.webp">
-                    </div>
-                    <div class="name text-truncate">Traveler</div>
-                </label>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-            <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-            </div>
-        </div>
-    </div>
+    
+
+<div class="row row-cols-10 g-2 mt-3" id="character-filter">
+<!-- JS จะใส่ col ที่นี่ -->
+</div>
+
+
+<template id="character-template-filter">
+  <div class="col">
+    <input type="checkbox" class="btn-check" autocomplete="off">
+    <label class="character-selector">
+      <div class="character-block-img">
+        <img class="img-fluid" src="">
+        <img class="elemental" src="">
+      </div>
+      <div class="name text-truncate"></div>
+    </label>
+  </div>
+</template>
+  
+
     
 </div>
 
@@ -237,12 +217,12 @@ fetch('src/characters.json')
   .then(res => res.json())
   .then(characters => {
     const row = document.getElementById('character-row');
-    const template = document.getElementById('character-template');
+    const filterContainer = document.getElementById('character-filter');
+    const randomTemplate = document.getElementById('character-template-random');
+    const filterTemplate = document.getElementById('character-template-filter');
 
-    // ✅ สุ่มลำดับตัวละคร
-    const shuffled = characters.sort(() => 0.5 - Math.random());
-
-    // ✅ ดึง 8 ตัวแรกจากที่สุ่มแล้ว
+    // 1) สุ่มตัวละคร 8 ตัว ใส่ character-row
+    const shuffled = [...characters].sort(() => 0.5 - Math.random());
     const showCharacters = shuffled.slice(0, 8);
 
     for (let i = 0; i < showCharacters.length; i += 4) {
@@ -253,22 +233,24 @@ fetch('src/characters.json')
       flex.className = 'd-flex gap-2';
 
       showCharacters.slice(i, i + 4).forEach(char => {
-        const clone = template.content.cloneNode(true);
+        const clone = randomTemplate.content.cloneNode(true);
 
         const imgWrapper = clone.querySelector('.character-block-img');
         const charImg = clone.querySelector('.img-fluid');
         const elemImg = clone.querySelector('.elemental');
         const name = clone.querySelector('.name');
-        name.classList.add('text-truncate');
 
-        // ✅ ข้อมูลตัวละคร
+        if (!imgWrapper || !charImg || !elemImg || !name) {
+          console.error('Template missing elements');
+          return;
+        }
+
         charImg.src = char.Image;
         charImg.alt = char.Name;
-        elemImg.src = `https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/${char.Elemental.toLowerCase()}.png`;
+        elemImg.src = `https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/${char.Elemental.toLowerCase()}.webp`;
         elemImg.loading = 'lazy';
         name.textContent = char.Name;
 
-        // ✅ ใส่ class rarity
         imgWrapper.classList.add(`rarity-${char.Rarity}`);
 
         flex.appendChild(clone);
@@ -277,8 +259,46 @@ fetch('src/characters.json')
       col.appendChild(flex);
       row.appendChild(col);
     }
+
+    // 2) แสดงตัวละครทั้งหมด ใส่ character-filter
+    characters.forEach(char => {
+      const clone = filterTemplate.content.cloneNode(true);
+
+      const checkbox = clone.querySelector('.btn-check');
+      const label = clone.querySelector('.character-selector');
+      const imgWrapper = clone.querySelector('.character-block-img');
+      const charImg = clone.querySelector('.img-fluid');
+      const elemImg = clone.querySelector('.elemental');
+      const name = clone.querySelector('.name');
+
+      if (!checkbox || !label || !imgWrapper || !charImg || !elemImg || !name) {
+        console.error('Template missing elements');
+        return;
+      }
+
+      // id/for สำหรับ checkbox (Traveler พิเศษ)
+      let checkboxId = char.Name;
+      if (char.Name.toLowerCase() === 'traveler') {
+        checkboxId = `${char.Name}-${char.Elemental}`;
+      }
+      checkboxId = checkboxId.toLowerCase().replace(/\s+/g, '-');
+
+      checkbox.id = checkboxId;
+      label.setAttribute('for', checkbox.id);
+      checkbox.checked = true;
+
+      charImg.src = char.Image;
+      charImg.alt = char.Name;
+      elemImg.src = `https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/${char.Elemental.toLowerCase()}.webp`;
+      name.textContent = char.Name;
+
+      imgWrapper.classList.add(`rarity-${char.Rarity}`);
+
+      filterContainer.appendChild(clone);
+    });
   })
   .catch(err => console.error('Error loading JSON:', err));
+
 
 
 

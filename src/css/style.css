@@ -11,10 +11,12 @@
 .character-block-img {
   width: 100%;
   height: auto;
+  overflow: hidden;
   background-position: center center; 
   background-repeat: no-repeat;     
   background-size: cover; 
   position: relative;
+  background-image: url('https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bg/card-bg-5.png');
 }
 
 .character-block-img.rarity-4 {
@@ -25,9 +27,6 @@
   background-image: url('https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bg/card-bg-5.png');
 }
 
-.img-fluid {
-
-}
 
 .name {
   background-color: white;
@@ -46,6 +45,33 @@
   position: absolute;
   left: 5px;
   top: 5px;
+}
+
+.character-selector {
+  opacity: 0.3;
+  width: 100%;
+}
+
+.character-selector:hover {
+  cursor: pointer;
+}
+
+.character-selector .name {
+  font-size: 0.85rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.character-selector .elemental {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+}
+
+.btn-check:checked+.character-selector {
+  opacity: 1;
 }
 
 .btn-checkbox-icon {
@@ -79,7 +105,7 @@
 }
 
 .mr-1 {
-  margin-right: 10px !important;
+  margin-right: 12px !important;
 }
 
 .img-element-icon {
@@ -99,4 +125,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.row-cols-10>* {
+    flex:0 0 auto !important;
+    width: 10% !important;
 }
