@@ -3,14 +3,18 @@
     --color-card-end: #ab5c10;
 }
 
+.character-block {
+  max-width: calc((100% - 1.5rem) / 4);
+}
+
 
 .character-block-img {
-    width: 100%;
-    height: auto;
-    background-position: center center; 
-    background-repeat: no-repeat;     
-    background-size: cover; 
-    position: relative;
+  width: 100%;
+  height: auto;
+  background-position: center center; 
+  background-repeat: no-repeat;     
+  background-size: cover; 
+  position: relative;
 }
 
 .character-block-img.rarity-4 {
@@ -21,20 +25,78 @@
   background-image: url('https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bg/card-bg-5.png');
 }
 
+.img-fluid {
+
+}
+
 .name {
-    background-color: white;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.05rem;
-    padding: 4px 15px;
-    width: 100%;
-    height: auto;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 4px 15px;
+  width: 100%;
+  height: auto;
 }
 
 .elemental {
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 5px;
-    top: 5px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.btn-checkbox-icon {
+  border-radius: 0px !important;
+  border-color: #484950 !important;
+  background-color: #36373d !important;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-checkbox-icon:hover {
+  background-color: #5f6066 !important;
+}
+
+.btn-check:checked+.btn-checkbox-icon {
+  background-color: #cd8de3 !important;
+  color: white !important;
+  border-color: none !important;
+}
+
+.text-purple {
+  color: #c9aae9 !important;
+}
+
+.text-gold {
+  color: #fddf49 !important;
+}
+
+.text-blue {
+  color: #45d4ff !important;
+}
+
+.mr-1 {
+  margin-right: 10px !important;
+}
+
+.img-element-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.btn-check:checked + label.btn-checkbox-icon .img-element-icon {
+  filter: brightness(0) invert(1);
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+#dropdownRegion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
