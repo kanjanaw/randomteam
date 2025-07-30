@@ -410,6 +410,16 @@
     "Sustainable":false
   },
   {
+    "Name":"Aloy",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/aloy.png",
+    "Rarity":5,
+    "Elemental":"Cryo",
+    "Weapon":"Bow",
+    "Gender":"Female",
+    "Country":"Other",
+    "Sustainable":false
+  },
+  {
     "Name":"Sangonomiya Kokomi",
     "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/sangonomiya-kokomi.png",
     "Rarity":5,
