@@ -3,6 +3,12 @@
     --color-card-end: #ab5c10;
 }
 
+body {
+    background-color: #24252b !important;
+    color: white !important;
+    font-family: 'Anuphan', sans-serif !important;
+}
+
 .character-block {
   max-width: calc((100% - 1.5rem) / 4);
 }
@@ -130,4 +136,52 @@
 .row-cols-10>* {
     flex:0 0 auto !important;
     width: 10% !important;
+}
+
+#dropdownRegion {
+  border: 1px solid #484950;
+  border-radius: 0px;
+  background-color: #36373d;
+  height: 42px;
+  text-align: start;
+  position: relative;
+}
+
+#dropdownRegion:hover {
+  background-color: #5f6066;
+}
+
+
+#dropdownRegion::after {
+  position: absolute;
+  right: 1rem; /* ระยะห่างจากขอบขวา ปรับตามต้องการ */
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 0; /* ล้างค่า margin เดิม */
+}
+
+.dropdown-menu {
+  background-color: #36373d !important;
+  border: 1px solid #484950 !important;
+  color: white !important;
+  border-radius: 0px !important;
+}
+
+.btn-purple {
+  border-radius: 0px !important;
+  border-color: #cd8de3 !important;
+  color: #cd8de3 !important;
+}
+
+.btn-purple:hover, .btn-purple:visited, .btn-purple:active, .btn-purple.selected {
+  background-color: #cd8de3 !important;
+  color: white !important;
+}
+
+.form-check-input:checked {
+  background-color: #cd8de3 !important;
+  border-color: #cd8de3 !important;
+}
+.form-check-input:focus {
+  box-shadow: 0 0 0 .25rem rgba(205, 141, 227, .25) !important;
 }

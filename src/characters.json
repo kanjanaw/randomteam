@@ -6,7 +6,7 @@
     "Elemental":"Pyro",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -16,7 +16,7 @@
     "Elemental":"Cryo",
     "Weapon":"Sword",
     "Gender":"Male",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -26,7 +26,7 @@
     "Elemental":"Electro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -36,7 +36,7 @@
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":true
   },
   {
@@ -46,7 +46,7 @@
     "Elemental":"Electro",
     "Weapon":"Claymore",
     "Gender":"Male",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -56,7 +56,7 @@
     "Elemental":"Pyro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -66,7 +66,7 @@
     "Elemental":"Electro",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -76,7 +76,7 @@
     "Elemental":"Hydro",
     "Weapon":"Sword",
     "Gender":"Male",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -86,7 +86,7 @@
     "Elemental":"Geo",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -96,7 +96,7 @@
     "Elemental":"Electro",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -106,7 +106,7 @@
     "Elemental":"Pyro",
     "Weapon":"Sword",
     "Gender":"Male",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":true
   },
   {
@@ -116,7 +116,7 @@
     "Elemental":"Geo",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":true
   },
   {
@@ -126,7 +126,7 @@
     "Elemental":"Cryo",
     "Weapon":"Claymore",
     "Gender":"Male",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -136,7 +136,7 @@
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -146,7 +146,7 @@
     "Elemental":"Anemo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":true
   },
   {
@@ -156,7 +156,7 @@
     "Elemental":"Pyro",
     "Weapon":"Claymore",
     "Gender":"Male",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -166,7 +166,7 @@
     "Elemental":"Cryo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":true
   },
   {
@@ -176,7 +176,7 @@
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -186,7 +186,7 @@
     "Elemental":"Electro",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -196,7 +196,7 @@
     "Elemental":"Anemo",
     "Weapon":"Bow",
     "Gender":"Male",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -206,7 +206,7 @@
     "Elemental":"Pyro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -216,7 +216,7 @@
     "Elemental":"Anemo",
     "Weapon":"Sword",
     "Gender":"All",
-    "Country":"All",
+    "Region":"All",
     "Sustainable":false
   },
   {
@@ -226,7 +226,7 @@
     "Elemental":"Cryo",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":true
   },
   {
@@ -236,7 +236,7 @@
     "Elemental":"Hydro",
     "Weapon":"Bow",
     "Gender":"Male",
-    "Country":"Snezhnaya",
+    "Region":"Snezhnaya",
     "Sustainable":false
   },
   {
@@ -246,7 +246,7 @@
     "Elemental":"Pyro",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":true
   },
   {
@@ -256,7 +256,7 @@
     "Elemental":"Geo",
     "Weapon":"Polearm",
     "Gender":"Male",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":true
   },
   {
@@ -266,7 +266,7 @@
     "Elemental":"Geo",
     "Weapon":"Sword",
     "Gender":"All",
-    "Country":"All",
+    "Region":"All",
     "Sustainable":false
   },
   {
@@ -276,7 +276,7 @@
     "Elemental":"Geo",
     "Weapon":"Sword",
     "Gender":"Male",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -286,7 +286,7 @@
     "Elemental":"Cryo",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -296,7 +296,7 @@
     "Elemental":"Anemo",
     "Weapon":"Polearm",
     "Gender":"Male",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -306,7 +306,7 @@
     "Elemental":"Pyro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -316,7 +316,7 @@
     "Elemental":"Cryo",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -326,7 +326,7 @@
     "Elemental":"Pyro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -336,7 +336,7 @@
     "Elemental":"Cryo",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":false
   },
   {
@@ -346,7 +346,7 @@
     "Elemental":"Anemo",
     "Weapon":"Sword",
     "Gender":"Male",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -356,7 +356,7 @@
     "Elemental":"Electro",
     "Weapon":"Sword",
     "Gender":"All",
-    "Country":"All",
+    "Region":"All",
     "Sustainable":false
   },
   {
@@ -366,7 +366,7 @@
     "Elemental":"Cryo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -376,7 +376,7 @@
     "Elemental":"Anemo",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":true
   },
   {
@@ -386,7 +386,7 @@
     "Elemental":"Pyro",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -396,7 +396,7 @@
     "Elemental":"Electro",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -406,7 +406,7 @@
     "Elemental":"Electro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -416,7 +416,7 @@
     "Elemental":"Cryo",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Other",
+    "Region":"Other",
     "Sustainable":false
   },
   {
@@ -426,7 +426,7 @@
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":true
   },
   {
@@ -436,7 +436,7 @@
     "Elemental":"Pyro",
     "Weapon":"Polearm",
     "Gender":"Male",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":true
   },
   {
@@ -446,7 +446,7 @@
     "Elemental":"Geo",
     "Weapon":"Bow",
     "Gender":"Male",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":true
   },
   {
@@ -456,7 +456,7 @@
     "Elemental":"Geo",
     "Weapon":"Claymore",
     "Gender":"Male",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -466,7 +466,7 @@
     "Elemental":"Geo",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -476,7 +476,7 @@
     "Elemental":"Cryo",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -486,7 +486,7 @@
     "Elemental":"Electro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -496,7 +496,7 @@
     "Elemental":"Hydro",
     "Weapon":"Sword",
     "Gender":"Male",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -506,7 +506,7 @@
     "Elemental":"Hydro",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -516,7 +516,7 @@
     "Elemental":"Electro",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":true
   },
   {
@@ -526,7 +526,7 @@
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
     "Gender":"Male",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -536,7 +536,7 @@
     "Elemental":"Dendro",
     "Weapon":"Sword",
     "Gender":"All",
-    "Country":"All",
+    "Region":"All",
     "Sustainable":false
   },
   {
@@ -546,7 +546,7 @@
     "Elemental":"Dendro",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -556,7 +556,7 @@
     "Elemental":"Dendro",
     "Weapon":"Bow",
     "Gender":"Male",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -566,7 +566,7 @@
     "Elemental":"Electro",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":true
   },
   {
@@ -576,7 +576,7 @@
     "Elemental":"Hydro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -586,7 +586,7 @@
     "Elemental":"Electro",
     "Weapon":"Polearm",
     "Gender":"Male",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -596,7 +596,7 @@
     "Elemental":"Hydro",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -606,7 +606,7 @@
     "Elemental":"Dendro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -616,7 +616,7 @@
     "Elemental":"Cryo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":true
   },
   {
@@ -626,7 +626,7 @@
     "Elemental":"Anemo",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -636,7 +636,7 @@
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
     "Gender":"Male",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -646,7 +646,7 @@
     "Elemental":"Dendro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":true
   },
   {
@@ -656,7 +656,7 @@
     "Elemental":"Dendro",
     "Weapon":"Sword",
     "Gender":"Male",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -666,7 +666,7 @@
     "Elemental":"Pyro",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -676,7 +676,7 @@
     "Elemental":"Cryo",
     "Weapon":"Polearm",
     "Gender":"Male",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":true
   },
   {
@@ -686,7 +686,7 @@
     "Elemental":"Dendro",
     "Weapon":"Claymore",
     "Gender":"Male",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -696,7 +696,7 @@
     "Elemental":"Dendro",
     "Weapon":"Catalyst",
     "Gender":"Male",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":true
   },
   {
@@ -706,7 +706,7 @@
     "Elemental":"Dendro",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":true
   },
   {
@@ -716,7 +716,7 @@
     "Elemental":"Hydro",
     "Weapon":"Sword",
     "Gender":"All",
-    "Country":"All",
+    "Region":"All",
     "Sustainable":false
   },
   {
@@ -726,7 +726,7 @@
     "Elemental":"Anemo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":false
   },
   {
@@ -736,7 +736,7 @@
     "Elemental":"Pyro",
     "Weapon":"Bow",
     "Gender":"Male",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":false
   },
   {
@@ -746,7 +746,7 @@
     "Elemental":"Cryo",
     "Weapon":"Claymore",
     "Gender":"Male",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":false
   },
   {
@@ -756,7 +756,7 @@
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
     "Gender":"Male",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":false
   },
   {
@@ -766,7 +766,7 @@
     "Elemental":"Cryo",
     "Weapon":"Catalyst",
     "Gender":"Male",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":false
   },
   {
@@ -776,7 +776,7 @@
     "Elemental":"Cryo",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":true
   },
   {
@@ -786,7 +786,7 @@
     "Elemental":"Hydro",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":true
   },
   {
@@ -796,7 +796,7 @@
     "Elemental":"Geo",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":false
   },
   {
@@ -806,7 +806,7 @@
     "Elemental":"Pyro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":true
   },
   {
@@ -816,7 +816,7 @@
     "Elemental":"Pyro",
     "Weapon":"Claymore",
     "Gender":"Male",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":false
   },
   {
@@ -826,7 +826,7 @@
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":true
   },
   {
@@ -836,7 +836,7 @@
     "Elemental":"Geo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -846,7 +846,7 @@
     "Elemental":"Pyro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Snezhnaya",
+    "Region":"Snezhnaya",
     "Sustainable":false
   },
   {
@@ -856,7 +856,7 @@
     "Elemental":"Electro",
     "Weapon":"Bow",
     "Gender":"Male",
-    "Country":"Sumeru",
+    "Region":"Sumeru",
     "Sustainable":false
   },
   {
@@ -866,7 +866,7 @@
     "Elemental":"Electro",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":false
   },
   {
@@ -876,7 +876,7 @@
     "Elemental":"Hydro",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":true
   },
   {
@@ -886,7 +886,7 @@
     "Elemental":"Dendro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":false
   },
   {
@@ -896,7 +896,7 @@
     "Elemental":"Pyro",
     "Weapon":"Sword",
     "Gender":"All",
-    "Country":"All",
+    "Region":"All",
     "Sustainable":false
   },
   {
@@ -906,7 +906,7 @@
     "Elemental":"Geo",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":false
   },
   {
@@ -916,7 +916,7 @@
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":false
   },
   {
@@ -926,7 +926,7 @@
     "Elemental":"Dendro",
     "Weapon":"Claymore",
     "Gender":"Male",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":false
   },
   {
@@ -936,7 +936,7 @@
     "Elemental":"Geo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":true
   },
   {
@@ -946,7 +946,7 @@
     "Elemental":"Electro",
     "Weapon":"Bow",
     "Gender":"Male",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":false
   },
   {
@@ -956,7 +956,7 @@
     "Elemental":"Anemo",
     "Weapon":"Bow",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":false
   },
   {
@@ -966,7 +966,7 @@
     "Elemental":"Cryo",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":true
   },
   {
@@ -976,7 +976,7 @@
     "Elemental":"Pyro",
     "Weapon":"Claymore",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":false
   },
   {
@@ -986,7 +986,7 @@
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Liyue",
+    "Region":"Liyue",
     "Sustainable":true
   },
   {
@@ -996,7 +996,7 @@
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Inazuma",
+    "Region":"Inazuma",
     "Sustainable":false
   },
   {
@@ -1006,7 +1006,7 @@
     "Elemental":"Electro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":true
   },
   {
@@ -1016,7 +1016,7 @@
     "Elemental":"Electro",
     "Weapon":"Catalyst",
     "Gender":"Female",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":false
   },
   {
@@ -1026,7 +1026,7 @@
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
     "Gender":"Male",
-    "Country":"Natlan",
+    "Region":"Natlan",
     "Sustainable":true
   },
   {
@@ -1036,7 +1036,7 @@
     "Elemental":"Cryo",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Fontaine",
+    "Region":"Fontaine",
     "Sustainable":true
   },
   {
@@ -1046,7 +1046,7 @@
     "Elemental":"Hydro",
     "Weapon":"Sword",
     "Gender":"Male",
-    "Country":"Mondstadt",
+    "Region":"Mondstadt",
     "Sustainable":true
   },
   {
@@ -1056,7 +1056,7 @@
     "Elemental":"Cryo",
     "Weapon":"Sword",
     "Gender":"Female",
-    "Country":"Other",
+    "Region":"Other",
     "Sustainable":false
   },
   {
@@ -1066,7 +1066,7 @@
     "Elemental":"Electro",
     "Weapon":"Polearm",
     "Gender":"Female",
-    "Country":"Nod-Krai",
+    "Region":"Nod-Krai",
     "Sustainable":false
   }
 ]
