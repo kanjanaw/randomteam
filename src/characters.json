@@ -216,7 +216,7 @@
     "Elemental":"Anemo",
     "Weapon":"Sword",
     "Gender":"All",
-    "Region":"All",
+    "Region":"Other",
     "Sustainable":false
   },
   {
@@ -266,7 +266,7 @@
     "Elemental":"Geo",
     "Weapon":"Sword",
     "Gender":"All",
-    "Region":"All",
+    "Region":"Other",
     "Sustainable":false
   },
   {
@@ -356,7 +356,7 @@
     "Elemental":"Electro",
     "Weapon":"Sword",
     "Gender":"All",
-    "Region":"All",
+    "Region":"Other",
     "Sustainable":false
   },
   {
@@ -536,7 +536,7 @@
     "Elemental":"Dendro",
     "Weapon":"Sword",
     "Gender":"All",
-    "Region":"All",
+    "Region":"Other",
     "Sustainable":false
   },
   {
@@ -716,7 +716,7 @@
     "Elemental":"Hydro",
     "Weapon":"Sword",
     "Gender":"All",
-    "Region":"All",
+    "Region":"Other",
     "Sustainable":false
   },
   {
@@ -896,7 +896,7 @@
     "Elemental":"Pyro",
     "Weapon":"Sword",
     "Gender":"All",
-    "Region":"All",
+    "Region":"Other",
     "Sustainable":false
   },
   {
