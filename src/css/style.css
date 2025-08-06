@@ -275,5 +275,12 @@ body {
   .g-5 {
     --bs-gutter-y: 2rem !important;
     --bs-gutter-x: 2rem !important;
-}
+  }
+  .elemental {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+  }
 }
