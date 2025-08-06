@@ -1067,6 +1067,6 @@
     "Weapon":"Polearm",
     "Gender":"Female",
     "Region":"Nod-Krai",
-    "Sustainable":false
+    "Sustainable":true
   }
 ]
