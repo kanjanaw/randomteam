@@ -1,118 +1,57 @@
 let characters = [];
 
-fetch('src/characters.json')
-  .then(res => res.json())
-  .then(characters => {
-    const row = document.getElementById('character-row');
-    const filterContainer = document.getElementById('character-filter');
-    const randomTemplate = document.getElementById('character-template-random');
-    const filterTemplate = document.getElementById('character-template-filter');
+document.addEventListener('DOMContentLoaded', () => {
+  fetch('src/characters.json')
+    .then(res => res.json())
+    .then(data => {
+      characters = data;
+      renderAllCharacters();
+      applyAllFilters();
+      generateRandomTeams(); // ✅ สุ่มทีมทันทีตอนโหลดเสร็จ
+      setupEventListeners();
+    })
+    .catch(err => console.error('Error loading JSON:', err));
+});
 
-    // 1) สุ่มตัวละคร 8 ตัว ใส่ character-row
-    const shuffled = [...characters].sort(() => 0.5 - Math.random());
-    const showCharacters = shuffled.slice(0, 8);
+// ---------------------- Render ตัวละครทั้งหมด ----------------------
+function renderAllCharacters() {
+  const filterContainer = document.getElementById('character-filter');
+  const template = document.getElementById('character-template-filter');
+  filterContainer.innerHTML = '';
 
-    for (let i = 0; i < showCharacters.length; i += 4) {
-      const col = document.createElement('div');
-      col.className = 'col-6';
+  characters.forEach(char => {
+    const clone = template.content.cloneNode(true);
 
-      const flex = document.createElement('div');
-      flex.className = 'd-flex gap-2';
+    const checkbox = clone.querySelector('.btn-check');
+    const label = clone.querySelector('.character-selector');
+    const imgWrapper = clone.querySelector('.character-block-img');
+    const charImg = clone.querySelector('.img-fluid');
+    const elemImg = clone.querySelector('.elemental');
+    const name = clone.querySelector('.name');
 
-      showCharacters.slice(i, i + 4).forEach(char => {
-        const clone = randomTemplate.content.cloneNode(true);
-
-        const imgWrapper = clone.querySelector('.character-block-img');
-        const charImg = clone.querySelector('.img-fluid');
-        const elemImg = clone.querySelector('.elemental');
-        const name = clone.querySelector('.name');
-
-        if (!imgWrapper || !charImg || !elemImg || !name) {
-          console.error('Template missing elements');
-          return;
-        }
-
-        charImg.src = char.Image;
-        charImg.alt = char.Name;
-        elemImg.src = `https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/${char.Elemental.toLowerCase()}.webp`;
-        elemImg.loading = 'lazy';
-        name.textContent = char.Name;
-
-        imgWrapper.classList.add(`rarity-${char.Rarity}`);
-
-        flex.appendChild(clone);
-      });
-
-      col.appendChild(flex);
-      row.appendChild(col);
+    // id พิเศษกรณี Traveler
+    let checkboxId = char.Name;
+    if (char.Name.toLowerCase() === 'traveler') {
+      checkboxId = `${char.Name}-${char.Elemental}`;
     }
+    checkboxId = checkboxId.toLowerCase().replace(/\s+/g, '-');
 
-    // 2) แสดงตัวละครทั้งหมด ใส่ character-filter
-    characters.forEach(char => {
-      const clone = filterTemplate.content.cloneNode(true);
+    checkbox.id = checkboxId;
+    label.setAttribute('for', checkbox.id);
+    checkbox.checked = true;
 
-      const checkbox = clone.querySelector('.btn-check');
-      const label = clone.querySelector('.character-selector');
-      const imgWrapper = clone.querySelector('.character-block-img');
-      const charImg = clone.querySelector('.img-fluid');
-      const elemImg = clone.querySelector('.elemental');
-      const name = clone.querySelector('.name');
+    charImg.src = char.Image;
+    charImg.alt = char.Name;
+    elemImg.src = `src/images/icons/elements/${char.Elemental.toLowerCase()}.webp`;
+    name.textContent = char.Name;
 
-      if (!checkbox || !label || !imgWrapper || !charImg || !elemImg || !name) {
-        console.error('Template missing elements');
-        return;
-      }
+    imgWrapper.classList.add(`rarity-${char.Rarity}`);
 
-      // id/for สำหรับ checkbox (Traveler พิเศษ)
-      let checkboxId = char.Name;
-      if (char.Name.toLowerCase() === 'traveler') {
-        checkboxId = `${char.Name}-${char.Elemental}`;
-      }
-      checkboxId = checkboxId.toLowerCase().replace(/\s+/g, '-');
+    filterContainer.appendChild(clone);
+  });
+}
 
-      checkbox.id = checkboxId;
-      label.setAttribute('for', checkbox.id);
-      checkbox.checked = true;
-
-      charImg.src = char.Image;
-      charImg.alt = char.Name;
-      elemImg.src = `https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/icons/elements/${char.Elemental.toLowerCase()}.webp`;
-      name.textContent = char.Name;
-
-      imgWrapper.classList.add(`rarity-${char.Rarity}`);
-
-      filterContainer.appendChild(clone);
-    });
-
-    applyAllFilters();
-
-    // === ควบคุมปุ่ม All check/uncheck ตัวละครทั้งหมด ===
-    const allCheckbox = document.getElementById('all');
-
-    // คลิกที่ปุ่ม All → check/uncheck ทั้งหมด
-    allCheckbox.addEventListener('change', function() {
-      const characterCheckboxes = document.querySelectorAll('#character-filter .btn-check');
-      characterCheckboxes.forEach(cb => {
-        cb.checked = allCheckbox.checked;
-      });
-    });
-
-    // ฟังก์ชัน sync ปุ่ม All กับสถานะ checkbox ตัวละคร
-    function updateAllCheckbox() {
-      const characterCheckboxes = document.querySelectorAll('#character-filter .btn-check');
-      const allChecked = Array.from(characterCheckboxes).every(cb => cb.checked);
-      allCheckbox.checked = allChecked;
-    }
-
-    // เมื่อมีการเปลี่ยนแปลง checkbox ของตัวละคร → อัพเดตปุ่ม All
-    document.addEventListener('change', e => {
-      if (e.target.matches('#character-filter .btn-check')) {
-        updateAllCheckbox();
-      }
-    });
-
-
-// ฟังก์ชันกรองตัวละคร
+// ---------------------- ฟังก์ชันกรองตัวละคร ----------------------
 function applyAllFilters() {
   const show4 = document.getElementById('4star').checked;
   const show5 = document.getElementById('5star').checked;
@@ -128,8 +67,8 @@ function applyAllFilters() {
 
   const femaleChecked = document.getElementById('female').checked;
   const maleChecked = document.getElementById('male').checked;
-
   const sustainChecked = document.getElementById('sustain').checked;
+  const sustainLess = document.getElementById('sustainless')?.checked || false;
 
   const allCharacterCols = document.querySelectorAll('#character-filter .col');
   let visibleCount = 0;
@@ -169,71 +108,159 @@ function applyAllFilters() {
 
     // --- Sustain ---
     if (visible && sustainChecked) {
-      visible = char.Sustainable === true; // 🔹ใช้ field ที่ถูกต้อง
+      visible = char.Sustainable === true;
+    }
+
+    // --- No Sustain ---
+    if (visible && sustainLess && char.Sustainable) {
+      visible = false;
     }
 
     col.style.display = visible ? '' : 'none';
     if (visible) visibleCount++;
   });
 
-  // อัปเดตจำนวนตัวละครที่แสดง
   document.getElementById('characterCount').textContent = `Showing ${visibleCount} characters`;
 }
 
-// === ผูก Event หลังประกาศฟังก์ชัน ===
-[
-  '4star','5star',
-  'pyro','hydro','dendro','electro','anemo','cryo','geo',
-  'sword','claymore','bow','catalyst','polearm',
-  'female','male','sustain'
-].forEach(id => {
-  document.getElementById(id).addEventListener('change', applyAllFilters);
-});
+// ---------------------- ฟังก์ชันสุ่มทีม ----------------------
+function generateRandomTeams() {
+  const includeSustain = document.getElementById('flexSwitchCheckChecked').checked;
+  const sustainLess = document.getElementById('sustainless')?.checked || false;
 
-document.querySelectorAll('.region-checkbox').forEach(cb => {
-  cb.addEventListener('change', applyAllFilters);
-});
+  const availableCols = document.querySelectorAll('#character-filter .col');
+  const availableCheckboxes = document.querySelectorAll('#character-filter .btn-check');
 
+  const availableChars = characters.filter((char, idx) => {
+    const col = availableCols[idx];
+    const checkbox = availableCheckboxes[idx];
+    if (!checkbox.checked || col.style.display === 'none') return false;
+    if (sustainLess && char.Sustainable) return false; 
+    return true;
+  });
 
-
-
-  })
-  .catch(err => console.error('Error loading JSON:', err));
-
-
-
-
-// function สำหรับ dropdown แสดง ... และจำนวน
-const dropdownBtn = document.getElementById('dropdownRegion');
-const checkboxes = document.querySelectorAll('.region-checkbox');
-const selectAllBtn = document.getElementById('selectAllBtn');
-
-function updateDropdownText() {
-  const selected = Array.from(checkboxes).filter(c => c.checked).map(c => c.value);
-  if (selected.length === 0) {
-    dropdownBtn.textContent = 'Select Region';
-  } else {
-    let label = selected.join(', ');
-    const count = ` (${selected.length})`;
-    const maxLength = 25;
-    if (label.length > maxLength) label = label.slice(0, maxLength - 3) + '...';
-    dropdownBtn.textContent = label + count;
+  if (availableChars.length < 8 && !includeSustain) {
+    alert('มีตัวละครไม่พอสำหรับสุ่มทีม');
+    return;
   }
 
-  // ปรับปุ่ม Select All / Unselect All
-  if (selected.length === checkboxes.length) {
-    selectAllBtn.textContent = 'Unselect All';
-  } else {
-    selectAllBtn.textContent = 'Select All';
+  function shuffleArray(arr) {
+    return arr.sort(() => Math.random() - 0.5);
   }
+
+  let pool = shuffleArray([...availableChars]);
+  const sustainChars = pool.filter(c => c.Sustainable);
+
+  const team1 = [];
+  const team2 = [];
+
+  if (includeSustain && !sustainLess) {
+    if (sustainChars.length < 2) {
+      alert('ไม่มีตัว Sustain เพียงพอ');
+      return;
+    }
+
+    const sustainSelected = shuffleArray(sustainChars).slice(0, 2);
+    const otherChars = pool.filter(c => !sustainSelected.includes(c)).slice(0, 6);
+
+    team1.push(...otherChars.slice(0, 3), sustainSelected[0]);
+    team2.push(...otherChars.slice(3, 6), sustainSelected[1]);
+  } else {
+    const selected = pool.slice(0, 8);
+    team1.push(...selected.slice(0, 4));
+    team2.push(...selected.slice(4, 8));
+  }
+
+  renderTeam('character-row', [team1, team2]);
 }
 
-checkboxes.forEach(cb => cb.addEventListener('change', updateDropdownText));
+// ---------------------- Render ทีม ----------------------
+function renderTeam(containerId, teams) {
+  const row = document.getElementById(containerId);
+  row.innerHTML = '';
+  const template = document.getElementById('character-template-random');
 
-selectAllBtn.addEventListener('click', () => {
-  const allSelected = Array.from(checkboxes).every(cb => cb.checked);
-  checkboxes.forEach(cb => cb.checked = !allSelected);
-  updateDropdownText();
-  applyAllFilters();
-});
+  teams.forEach(team => {
+    const col = document.createElement('div');
+    col.className = 'col-12 col-md-6';
 
+    const flex = document.createElement('div');
+    flex.className = 'd-flex gap-2';
+
+    team.forEach(char => {
+      const clone = template.content.cloneNode(true);
+      const imgWrapper = clone.querySelector('.character-block-img');
+      const charImg = clone.querySelector('.img-fluid');
+      const elemImg = clone.querySelector('.elemental');
+      const name = clone.querySelector('.name');
+
+      charImg.src = char.Image;
+      charImg.alt = char.Name;
+      elemImg.src = `src/images/icons/elements/${char.Elemental.toLowerCase()}.webp`;
+      name.textContent = char.Name;
+      imgWrapper.classList.add(`rarity-${char.Rarity}`);
+
+      flex.appendChild(clone);
+    });
+
+    col.appendChild(flex);
+    row.appendChild(col);
+  });
+}
+
+// ---------------------- Event Binding ----------------------
+function setupEventListeners() {
+  [
+    '4star','5star',
+    'pyro','hydro','dendro','electro','anemo','cryo','geo',
+    'sword','claymore','bow','catalyst','polearm',
+    'female','male','sustain'
+  ].forEach(id => {
+    document.getElementById(id)?.addEventListener('change', applyAllFilters);
+  });
+
+  document.querySelectorAll('.region-checkbox').forEach(cb => {
+    cb.addEventListener('change', applyAllFilters);
+  });
+
+  // ปุ่ม Random
+  document.getElementById('randomBtn')?.addEventListener('click', generateRandomTeams);
+
+  // ปุ่ม All
+  const allCheckbox = document.getElementById('all');
+  allCheckbox.addEventListener('change', function() {
+    document.querySelectorAll('#character-filter .btn-check').forEach(cb => cb.checked = allCheckbox.checked);
+  });
+
+  document.addEventListener('change', e => {
+    if (e.target.matches('#character-filter .btn-check')) {
+      const allChecked = Array.from(document.querySelectorAll('#character-filter .btn-check')).every(cb => cb.checked);
+      allCheckbox.checked = allChecked;
+    }
+  });
+
+  // ✅ เชื่อมปุ่ม sustain / no sustain
+  const includeSustainSwitch = document.getElementById('flexSwitchCheckChecked');
+  const sustainFilter = document.getElementById('sustain');
+  const sustainLessFilter = document.getElementById('sustainless');
+
+  includeSustainSwitch.addEventListener('change', function () {
+    if (this.checked) {
+      sustainLessFilter.checked = false;
+      sustainFilter.checked = true;
+    } else {
+      sustainFilter.checked = false;
+    }
+    applyAllFilters();
+    generateRandomTeams();
+  });
+
+  sustainLessFilter.addEventListener('change', function () {
+    if (this.checked) {
+      includeSustainSwitch.checked = false;
+      sustainFilter.checked = false;
+    }
+    applyAllFilters();
+    generateRandomTeams();
+  });
+}

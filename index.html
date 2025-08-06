@@ -17,8 +17,20 @@
 <body>
     
 <div class="container my-5">
-    <h4>template section</h4>
     <div class="row g-5" id="character-row"></div>
+    <div class="d-flex justify-content-center align-items-center flex-column mt-4">
+        <div class="d-flex gap-3">
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">Force last slot for sustain</label>
+            </div>
+            <div class="form-check form-switch mb-1">
+                <input class="form-check-input" type="checkbox" id="sustainless">
+                <label class="form-check-label" for="sustainless">No sustain</label>
+            </div>
+        </div>
+        <button class="btn btn-purple-white mt-3" id="randomBtn">Random Team</button>
+    </div>
 </div>
 
 <template id="character-template-random">

@@ -160,6 +160,18 @@ body {
   color: #cd8de3 !important;
 }
 
+.btn-purple-white {
+  border-radius: 0px !important;
+  border-color: #cd8de3 !important;
+  color: white !important;
+  background-color: #cd8de3 !important;
+  padding: 10px 15px !important;
+}
+
+.btn-purple-white:hover {
+  background-color: rgb(218, 157, 239) !important;
+}
+
 .btn-purple:hover, .btn-purple:visited, .btn-purple:active, .btn-purple.selected {
   background-color: #cd8de3 !important;
   color: white !important;
@@ -172,6 +184,11 @@ body {
 
 .form-check-input:focus {
   box-shadow: 0 0 0 .25rem rgba(205, 141, 227, .25) !important;
+  border-color: #cd8de3 !important;
+}
+
+.form-switch .form-check-input:focus {
+    --bs-form-switch-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='#cd8de3'/%3e%3c/svg%3e);
 }
 
 .row-cols-10 > * {
@@ -216,7 +233,7 @@ body {
   }
 
   .name {
-    font-size: 1.05rem;
+    font-size: 0.85rem;
     padding: 3px 8px;
   }
 
@@ -237,7 +254,7 @@ body {
   }
 
   .h6 {
-    font-size: 0.75rem !important;
+    font-size: 0.95rem !important;
   }
 
   .h4, h4 {
@@ -255,4 +272,8 @@ body {
   .filters-container {
     gap: 10px; /* เพิ่ม gap-y 10px บนมือถือ */
   }
+  .g-5 {
+    --bs-gutter-y: 2rem !important;
+    --bs-gutter-x: 2rem !important;
+}
 }
