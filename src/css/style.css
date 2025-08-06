@@ -133,11 +133,6 @@ body {
     white-space: nowrap;
 }
 
-.row-cols-10>* {
-    flex:0 0 auto !important;
-    width: 10% !important;
-}
-
 #dropdownRegion {
   border: 1px solid #484950;
   border-radius: 0px;
@@ -187,23 +182,24 @@ body {
 }
 
 
+/* มือถือ: แสดง 2 คอลัมน์ */
+.row-cols-10 > * {
+  flex: 0 0 20% !important;
+  width: 20% !important;
+}
+
+/* แท็บเล็ต: 5 คอลัมน์ */
 @media (min-width: 576px) {
-  .row-cols-10>* {
-      flex:0 0 auto !important;
-      width: calc(100%/6) !important;
+  .row-cols-10 > * {
+    flex: 0 0 12.5% !important;
+    width: 12.5% !important;
   }
 }
 
-@media (min-width: 768px) {
-  .row-cols-10>* {
-      flex:0 0 auto !important;
-      width: 12.5% !important;
-  }
-}
-
+/* Desktop: 10 คอลัมน์ */
 @media (min-width: 1200px) {
-  .row-cols-10>* {
-      flex:0 0 auto !important;
-      width: 10% !important;
+  .row-cols-10 > * {
+    flex: 0 0 10% !important;
+    width: 10% !important;
   }
 }
