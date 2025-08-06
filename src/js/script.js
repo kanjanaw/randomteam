@@ -234,4 +234,6 @@ selectAllBtn.addEventListener('click', () => {
   const allSelected = Array.from(checkboxes).every(cb => cb.checked);
   checkboxes.forEach(cb => cb.checked = !allSelected);
   updateDropdownText();
+  applyAllFilters();
 });
+
