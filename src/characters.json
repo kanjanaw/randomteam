@@ -1068,5 +1068,25 @@
     "Gender":"Female",
     "Region":"Nod-Krai",
     "Sustainable":true
+  },
+  {
+    "Name":"Lauma",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ineffa.png",
+    "Rarity":5,
+    "Elemental":"Dendro",
+    "Weapon":"Catalyst",
+    "Gender":"Female",
+    "Region":"Nod-Krai",
+    "Sustainable":false
+  },
+  {
+    "Name":"Aino",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ineffa.png",
+    "Rarity":4,
+    "Elemental":"Hydro",
+    "Weapon":"Claymore",
+    "Gender":"Female",
+    "Region":"Nod-Krai",
+    "Sustainable":false
   }
 ]
