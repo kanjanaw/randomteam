@@ -1071,7 +1071,7 @@
   },
   {
     "Name":"Lauma",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ineffa.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/lauma.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Catalyst",
@@ -1081,7 +1081,7 @@
   },
   {
     "Name":"Aino",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ineffa.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/aino.png",
     "Rarity":4,
     "Elemental":"Hydro",
     "Weapon":"Claymore",
