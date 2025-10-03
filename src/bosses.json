@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Anemo Hypostasis",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/anemo.png",
+    "location": "Mondstadt",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Cryo Hypostasis",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/cryo.png",
+    "location": "Mondstadt",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Cryo Regisvine",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/cryo-r.png",
+    "location": "Mondstadt",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Electro Hypostasis",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/electro.png",
+    "location": "Mondstadt",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Stormterror",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/stormterror.png",
+    "location": "Mondstadt",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Lupus Boreas, Dominator of Wolves",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/lupus.png",
+    "location": "Mondstadt",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Geo Hypostasis",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/geo.png",
+    "location": "Liyue",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Oceanid",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/oceanid.png",
+    "location": "Liyue",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Primo Geovishap",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/primo.png",
+    "location": "Liyue",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Pyro Regisvine",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/pyro-r.png",
+    "location": "Liyue",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Ruin Serpent",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/ruin.png",
+    "location": "Liyue",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Solitary Suanni",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/solitary.png",
+    "location": "Liyue",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Childe",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/childe.png",
+    "location": "Liyue",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Azhdaha",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/azhdaha.png",
+    "location": "Liyue",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Bathysmal Vishap Herd",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/bathysmal.png",
+    "location": "Inazuma",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Golden Wolflord",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/golden.png",
+    "location": "Inazuma",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Hydro Hypostasis",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/hydro.png",
+    "location": "Inazuma",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Maguu Kenki",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/maguu.png",
+    "location": "Inazuma",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Perpetual Mechanical Array",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/perpetual.png",
+    "location": "Inazuma",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Pyro Hypostasis",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/pyro.png",
+    "location": "Inazuma",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Thunder Manifestation",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/thunder.png",
+    "location": "Inazuma",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "La Signora",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/la-signora.png",
+    "location": "Inazuma",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Magatsu Mitake Narukami no Mikoto",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/magatsu.png",
+    "location": "Inazuma",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Jadeplume Terrorshroom",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/jadeplume.png",
+    "location": "Sumeru",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Electro Regisvine",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/electro-r.png",
+    "location": "Sumeru",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Aeonblight Drake",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/aeonblight.png",
+    "location": "Sumeru",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/algorithm.png",
+    "location": "Sumeru",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Dendro Hypostasis",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/dendro.png",
+    "location": "Sumeru",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Setekh Wenut",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/setekh.png",
+    "location": "Sumeru",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Iniquitous Baptist",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/iniquitous.png",
+    "location": "Sumeru",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Shouki no Kami, the Prodigal",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/shouki.png",
+    "location": "Sumeru",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Guardian of Apep's Oasis",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/guardian.png",
+    "location": "Sumeru",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Icewind Suite (Coppelia)",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/is-Coppelia.png",
+    "location": "Fontaine",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Icewind Suite (Coppelius)",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/is-Coppelius.png",
+    "location": "Fontaine",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Emperor of Fire and Iron",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Emperor_of_Fire_and_Iron.png",
+    "location": "Fontaine",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Experimental Field Generator",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Experimental_Field_Generator.png",
+    "location": "Fontaine",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Millennial Pearl Seahorse",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Millennial_Pearl_Seahorse.png",
+    "location": "Fontaine",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Hydro Tulpa",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Hydro_Tulpa.png",
+    "location": "Fontaine",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Legatus Golem",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Legatus_Golem.png",
+    "location": "Fontaine",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "All-Devouring Narwhal",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/All-Devouring_Narwhal.png",
+    "location": "Fontaine",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "The Knave",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/The_Knave.png",
+    "location": "Fontaine",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Goldflame Qucusaur Tyrant",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Goldflame_Qucusaur_Tyrant.png",
+    "location": "Natlan",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Gluttonous Yumkasaur Mountain King",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Gluttonous_Yumkasaur_Mountain_King.png",
+    "location": "Natlan",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Secret Source Automaton - Configuration Device",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Secret_Source_Automaton_Configuration_Device.png",
+    "location": "Natlan",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Tenebrous Papilla",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Tenebrous_Papilla.png",
+    "location": "Natlan",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Wayward Hermetic Spiritspeaker",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Wayward_Hermetic_Spiritspeaker.png",
+    "location": "Natlan",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Lava Dragon Statue",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Lava_Dragon_Statue.png",
+    "location": "Natlan",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Secret Source Automaton: Overseer Device",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Secret_Source_Automaton_Overseer_Device.png",
+    "location": "Natlan",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Lord of Eroded Primal Fire",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Lord_of_Eroded_Primal_Fire.png",
+    "location": "Natlan",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "The Game Before the Gate",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/The_Game_Before_the_Gate.png",
+    "location": "Mondstadt",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Radiant Moonfly",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Radiant_Moonfly.png",
+    "location": "Nod-Krai",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Knuckle Duckle",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Knuckle_Duckle.png",
+    "location": "Nod-Krai",
+    "boss_type": "World Boss"
+  }
+]
