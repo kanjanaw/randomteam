@@ -214,8 +214,8 @@ body {
 }
 
 .boss-img {
-  width: 180px;
-  height: 180px;
+  width: 180px !important;
+  height: 180px !important;
 }
 
 .boss-icon {
@@ -223,9 +223,17 @@ body {
   height: 50px;
 }
 
+.boss-card {
+  text-align: center;
+}
+
 .bg-grey-303 {
   background-color: #30323a !important;
 }
+
+
+
+
 /* ---------------------- Tablet (≤1199px) ---------------------- */
 @media (max-width: 1199px) {
   .row-cols-10 > * {

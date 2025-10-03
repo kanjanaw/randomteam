@@ -266,33 +266,54 @@ function setupEventListeners() {
 }
 
 
+let bosses = [];
+
 // โหลด JSON
-  fetch("src/bosses.json")
-    .then(res => res.json())
-    .then(data => {
-      const container = document.getElementById("boss-list");
+fetch("src/bosses.json")
+  .then(res => res.json())
+  .then(data => {
+    bosses = data;
 
-      data.forEach(boss => {
-        const col = document.createElement("div");
-        col.className = "col";
+    // ✅ แสดงบอสทั้งหมดใน list
+    const container = document.getElementById("boss-list");
+    data.forEach(boss => {
+      const col = document.createElement("div");
+      col.className = "col";
 
-        col.innerHTML = `
-          <div class="card rounded-2 bg-grey-303 text-light p-2 h-100">
-            <div class="row g-2">
-              <div class="col-md-3">
-                <img src="${boss.image}" class="img-fluid rounded-2" alt="${boss.name}">
-              </div>
-              <div class="col-md-9">
-                <div class="card-body p-2">
-                  <p class="mb-1 fw-bold">${boss.name}</p>
-                  <small class="text-secondary">${boss.location} • ${boss.boss_type}</small>
-                </div>
+      col.innerHTML = `
+        <div class="card rounded-2 bg-grey-303 text-light p-2 h-100">
+          <div class="row g-2">
+            <div class="col-md-3">
+              <img src="${boss.image}" class="img-fluid rounded-2" alt="${boss.name}">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body p-2">
+                <p class="mb-1 fw-bold">${boss.name}</p>
+                <small class="text-secondary">${boss.location} • ${boss.boss_type}</small>
               </div>
             </div>
           </div>
-        `;
+        </div>
+      `;
+      container.appendChild(col);
+    });
 
-        container.appendChild(col);
-      });
-    })
-    .catch(err => console.error(err));
+    // ✅ สุ่มบอสครั้งแรกเลย (ไม่ต้องกดปุ่มก่อน)
+    getRandomBoss();
+  })
+  .catch(err => console.error("Error loading JSON:", err));
+
+// ฟังก์ชันสุ่ม
+function getRandomBoss() {
+  if (bosses.length === 0) return;
+
+  const randomIndex = Math.floor(Math.random() * bosses.length);
+  const boss = bosses[randomIndex];
+
+  document.getElementById("bossImg").src = boss.image;
+  document.getElementById("bossName").textContent = boss.name;
+  document.getElementById("bossInfo").textContent = `${boss.location} • ${boss.boss_type}`;
+}
+
+// Event listener ปุ่ม
+document.getElementById("randomBossBtn").addEventListener("click", getRandomBoss);
