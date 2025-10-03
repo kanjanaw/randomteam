@@ -193,67 +193,67 @@
   },
   {
     "name": "Icewind Suite (Coppelia)",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/is-Coppelia.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/is.png",
     "location": "Fontaine",
     "boss_type": "World Boss"
   },
   {
     "name": "Icewind Suite (Coppelius)",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/is-Coppelius.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/is.png",
     "location": "Fontaine",
     "boss_type": "World Boss"
   },
   {
     "name": "Emperor of Fire and Iron",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Emperor_of_Fire_and_Iron.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/emperor.png",
     "location": "Fontaine",
     "boss_type": "World Boss"
   },
   {
     "name": "Experimental Field Generator",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Experimental_Field_Generator.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/experimental.png",
     "location": "Fontaine",
     "boss_type": "World Boss"
   },
   {
     "name": "Millennial Pearl Seahorse",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Millennial_Pearl_Seahorse.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/millennial.png",
     "location": "Fontaine",
     "boss_type": "World Boss"
   },
   {
     "name": "Hydro Tulpa",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Hydro_Tulpa.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/hydro-t.png",
     "location": "Fontaine",
     "boss_type": "World Boss"
   },
   {
     "name": "Legatus Golem",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Legatus_Golem.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/legatus.png",
     "location": "Fontaine",
     "boss_type": "World Boss"
   },
   {
     "name": "All-Devouring Narwhal",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/All-Devouring_Narwhal.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/all-devouring.png",
     "location": "Fontaine",
     "boss_type": "Weekly Boss"
   },
   {
     "name": "The Knave",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/The_Knave.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/knave.png",
     "location": "Fontaine",
     "boss_type": "Weekly Boss"
   },
   {
     "name": "Goldflame Qucusaur Tyrant",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Goldflame_Qucusaur_Tyrant.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/goldflamet.png",
     "location": "Natlan",
     "boss_type": "World Boss"
   },
   {
     "name": "Gluttonous Yumkasaur Mountain King",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Gluttonous_Yumkasaur_Mountain_King.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/yumkasaur.png",
     "location": "Natlan",
     "boss_type": "World Boss"
   },

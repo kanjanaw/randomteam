@@ -267,7 +267,7 @@ function setupEventListeners() {
 
 
 // โหลด JSON
-  fetch("bosses.json")
+  fetch("src/bosses.json")
     .then(res => res.json())
     .then(data => {
       const container = document.getElementById("boss-list");
