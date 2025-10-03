@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="src/images/icons/web.webp">
+    <title>Random Team | Your Number Challenge</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="container my-5 text-center">
+    <div class="d-flex gap-3 justify-content-center mb-4">
+        <div class="dropdown">
+            <button id="dropdownRegion" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                Select Region
+            </button>
+            <ul class="dropdown-menu p-3 mt-1 w-100">
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="mondstadt" value="Mondstadt">
+                    <label class="form-check-label" for="mondstadt">Mondstadt</label>
+                </div>
+                </li>
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="liyue" value="Liyue">
+                    <label class="form-check-label" for="liyue">Liyue</label>
+                </div>
+                </li>
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="inazuma" value="Inazuma">
+                    <label class="form-check-label" for="inazuma">Inazuma</label>
+                </div>
+                </li>
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="sumeru" value="Sumeru">
+                    <label class="form-check-label" for="sumeru">Sumeru</label>
+                </div>
+                </li>
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="fontaine" value="Fontaine">
+                    <label class="form-check-label" for="fontaine">Fontaine</label>
+                </div>
+                </li>
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="natlan" value="Natlan">
+                    <label class="form-check-label" for="natlan">Natlan</label>
+                </div>
+                </li>
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="nodkrai" value="Nod-Krai">
+                    <label class="form-check-label" for="nodkrai">Nod-Krai</label>
+                </div>
+                </li>
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="snezhnaya" value="Snezhnaya">
+                    <label class="form-check-label" for="snezhnaya">Snezhnaya</label>
+                </div>
+                </li>
+                <li>
+                <div class="form-check">
+                    <input class="form-check-input region-checkbox" type="checkbox" id="other" value="Other">
+                    <label class="form-check-label" for="other">Other</label>
+                </div>
+                </li>
+                <button class="btn btn-purple w-100 mt-2" id="selectAllBtn">Select All</button>
+            </ul>
+        </div>
+        <button class="btn btn-purple-white" id="shuffleBtn">Shuffle Character</button>
+    </div>
+    
+    <div class="row row-cols-6 g-3" id="card-random-number"></div>
+</div>
+
+
+
+
+</body>
+</html>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="src/js/script.js"></script>
+
+

@@ -1,17 +1,39 @@
 let characters = [];
 
-document.addEventListener('DOMContentLoaded', () => {
+function loadCharacters(callback) {
+  if (characters.length > 0) {
+    // JSON โหลดแล้ว เคลียร์ callback
+    callback();
+    return;
+  }
+
   fetch('src/characters.json')
     .then(res => res.json())
     .then(data => {
       characters = data;
-      renderAllCharacters();
-      applyAllFilters();
-      generateRandomTeams(); // ✅ สุ่มทีมทันทีตอนโหลดเสร็จ
-      setupEventListeners();
+      callback();
     })
     .catch(err => console.error('Error loading JSON:', err));
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadCharacters(() => {
+    renderAllCharacters();
+    applyAllFilters();
+    generateRandomTeams();
+    setupEventListeners();
+  });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadCharacters(() => {
+    renderCharacterCards(shuffleArray([...characters]));
+    setupFilters();
+    setupShuffleButton();
+  });
+});
+
 
 // ---------------------- Render ตัวละครทั้งหมด ----------------------
 function renderAllCharacters() {
@@ -264,6 +286,81 @@ function setupEventListeners() {
     generateRandomTeams();
   });
 }
+
+// Render การ์ด + shuffle ทุกครั้ง
+function renderCharacterCards(filteredChars = characters) {
+  const container = document.getElementById('card-random-number');
+  if (!container) return console.error('Cannot find card container');
+
+  container.innerHTML = '';
+
+  // Shuffle array ก่อน render
+  const shuffled = filteredChars.sort(() => Math.random() - 0.5);
+
+  shuffled.forEach((char, idx) => {
+    const col = document.createElement('div');
+    col.className = 'col';
+
+    col.innerHTML = `
+      <div class="scene">
+        <div class="card-ynum">
+          <div class="card__face card__face--front">${idx + 1}</div>
+          <div class="card__face card__face--back" style="background-image: url('${char.Image}');"></div>
+        </div>
+      </div>
+    `;
+    container.appendChild(col);
+  });
+
+  // Flip event
+  container.querySelectorAll('.card-ynum').forEach(card => {
+    card.addEventListener('click', () => card.classList.toggle('is-flipped'));
+  });
+}
+
+
+// Shuffle array
+function shuffleArray(arr) {
+  return arr.sort(() => Math.random() - 0.5);
+}
+
+// Filter ตาม region
+function getFilteredCharacters() {
+  const checkboxes = document.querySelectorAll('.region-checkbox:checked');
+  if (!checkboxes.length) return [...characters]; // ถ้าไม่เลือก filter -> all
+  const selectedRegions = Array.from(checkboxes).map(cb => cb.value);
+  return characters.filter(c => selectedRegions.includes(c.Region));
+}
+
+// Setup dropdown filter
+function setupFilters() {
+  const checkboxes = document.querySelectorAll('.region-checkbox');
+  checkboxes.forEach(cb => {
+    cb.addEventListener('change', () => {
+      const filtered = getFilteredCharacters();
+      renderCharacterCards(filtered); // จะ shuffle ภายใน
+    });
+  });
+
+  const selectAllBtn = document.getElementById('selectAllBtn');
+  selectAllBtn.addEventListener('click', () => {
+    checkboxes.forEach(cb => cb.checked = true);
+    const filtered = getFilteredCharacters();
+    renderCharacterCards(filtered); // จะ shuffle ภายใน
+  });
+}
+
+// Setup shuffle button
+function setupShuffleButton() {
+  const btn = document.getElementById('shuffleBtn');
+  btn.addEventListener('click', () => {
+    const filtered = getFilteredCharacters();
+    renderCharacterCards(shuffleArray(filtered));
+  });
+}
+
+
+
 
 
 let bosses = [];
