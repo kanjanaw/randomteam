@@ -247,7 +247,7 @@
   },
   {
     "name": "Goldflame Qucusaur Tyrant",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/goldflamet.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/goldflame.png",
     "location": "Natlan",
     "boss_type": "World Boss"
   },
@@ -259,55 +259,55 @@
   },
   {
     "name": "Secret Source Automaton - Configuration Device",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Secret_Source_Automaton_Configuration_Device.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/ss-cd.png",
     "location": "Natlan",
     "boss_type": "World Boss"
   },
   {
     "name": "Tenebrous Papilla",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Tenebrous_Papilla.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/tenebrous.png",
     "location": "Natlan",
     "boss_type": "World Boss"
   },
   {
     "name": "Wayward Hermetic Spiritspeaker",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Wayward_Hermetic_Spiritspeaker.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/wayward.png",
     "location": "Natlan",
     "boss_type": "World Boss"
   },
   {
     "name": "Lava Dragon Statue",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Lava_Dragon_Statue.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/lava.png",
     "location": "Natlan",
     "boss_type": "World Boss"
   },
   {
     "name": "Secret Source Automaton: Overseer Device",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Secret_Source_Automaton_Overseer_Device.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/ss-od.png",
     "location": "Natlan",
     "boss_type": "World Boss"
   },
   {
     "name": "Lord of Eroded Primal Fire",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Lord_of_Eroded_Primal_Fire.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/lord.png",
     "location": "Natlan",
     "boss_type": "Weekly Boss"
   },
   {
     "name": "The Game Before the Gate",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/The_Game_Before_the_Gate.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/gate.png",
     "location": "Mondstadt",
     "boss_type": "Weekly Boss"
   },
   {
     "name": "Radiant Moonfly",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Radiant_Moonfly.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/radiant.png",
     "location": "Nod-Krai",
     "boss_type": "World Boss"
   },
   {
     "name": "Knuckle Duckle",
-    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/Knuckle_Duckle.png",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/duckle.png",
     "location": "Nod-Krai",
     "boss_type": "World Boss"
   }
