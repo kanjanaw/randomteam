@@ -271,7 +271,7 @@ body {
 }
 
 .card__face--front {
-  background: crimson;
+  background: #484950;
   display: flex;
   justify-content: center;  /* จัดกลางแนวนอน */
   align-items: center;
