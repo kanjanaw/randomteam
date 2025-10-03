@@ -264,3 +264,35 @@ function setupEventListeners() {
     generateRandomTeams();
   });
 }
+
+
+// โหลด JSON
+  fetch("bosses.json")
+    .then(res => res.json())
+    .then(data => {
+      const container = document.getElementById("boss-list");
+
+      data.forEach(boss => {
+        const col = document.createElement("div");
+        col.className = "col mb-3";
+
+        col.innerHTML = `
+          <div class="card rounded-2 bg-grey-303 text-light p-2 h-100">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img src="${boss.image}" class="img-fluid rounded-start" alt="${boss.name}">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body p-2">
+                  <p class="mb-1 fw-bold">${boss.name}</p>
+                  <small class="text-secondary">${boss.location} • ${boss.boss_type}</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+
+        container.appendChild(col);
+      });
+    })
+    .catch(err => console.error(err));
