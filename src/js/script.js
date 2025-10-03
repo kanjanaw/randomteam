@@ -274,13 +274,13 @@ function setupEventListeners() {
 
       data.forEach(boss => {
         const col = document.createElement("div");
-        col.className = "col mb-3";
+        col.className = "col";
 
         col.innerHTML = `
           <div class="card rounded-2 bg-grey-303 text-light p-2 h-100">
-            <div class="row g-0">
+            <div class="row g-2">
               <div class="col-md-3">
-                <img src="${boss.image}" class="img-fluid rounded-start" alt="${boss.name}">
+                <img src="${boss.image}" class="img-fluid rounded-2" alt="${boss.name}">
               </div>
               <div class="col-md-9">
                 <div class="card-body p-2">
