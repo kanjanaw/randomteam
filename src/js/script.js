@@ -294,8 +294,19 @@ function renderCharacterCards(filteredChars = characters) {
 
   container.innerHTML = '';
 
-  // Shuffle array ก่อน render
-  const shuffled = filteredChars.sort(() => Math.random() - 0.5);
+  // ✅ กรองไม่ให้ Traveler ซ้ำ
+  let seenTraveler = false;
+  const uniqueChars = filteredChars.filter(char => {
+    if (char.Name === "Traveler") {
+      if (seenTraveler) return false; // ถ้าเจอ Traveler แล้ว ตัดทิ้ง
+      seenTraveler = true;
+      return true; // เก็บ Traveler แค่ตัวแรก
+    }
+    return true; // ตัวอื่นเก็บหมด
+  });
+
+  // ✅ Shuffle ก่อน render
+  const shuffled = uniqueChars.sort(() => Math.random() - 0.5);
 
   shuffled.forEach((char, idx) => {
     const col = document.createElement('div');
