@@ -1098,5 +1098,35 @@
     "Gender":"Male",
     "Region":"Nod-Krai",
     "Sustainable":false
+  },
+  {
+    "Name":"Nefer",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/nefer.png",
+    "Rarity":5,
+    "Elemental":"Dendro",
+    "Weapon":"Catalyst",
+    "Gender":"Female",
+    "Region":"Nod-Krai",
+    "Sustainable":false
+  },
+  {
+    "Name":"F Manekin",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Rarity":4,
+    "Elemental":"All",
+    "Weapon":"Sword",
+    "Gender":"Female",
+    "Region":"Other",
+    "Sustainable":false
+  },
+  {
+    "Name":"M Manekin",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Rarity":4,
+    "Elemental":"All",
+    "Weapon":"Sword",
+    "Gender":"Male",
+    "Region":"Other",
+    "Sustainable":false
   }
 ]
