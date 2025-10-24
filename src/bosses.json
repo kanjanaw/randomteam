@@ -310,5 +310,11 @@
     "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/duckle.png",
     "location": "Nod-Krai",
     "boss_type": "World Boss"
+  },
+  {
+    "name": "Frostnight Herra",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/herra.png",
+    "location": "Nod-Krai",
+    "boss_type": "World Boss"
   }
 ]
