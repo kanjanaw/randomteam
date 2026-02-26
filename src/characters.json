@@ -1128,5 +1128,65 @@
     "Gender":"Male",
     "Region":"Other",
     "Sustainable":false
+  },
+  {
+    "Name":"Durin",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Rarity":5,
+    "Elemental":"Pyro",
+    "Weapon":"Sword",
+    "Gender":"Male",
+    "Region":"Mondstadt",
+    "Sustainable":false
+  },
+  {
+    "Name":"Jahoda",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Rarity":4,
+    "Elemental":"Anemo",
+    "Weapon":"Bow",
+    "Gender":"Female",
+    "Region":"Nod-Krai",
+    "Sustainable":true
+  },
+  {
+    "Name":"Columbina",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Rarity":5,
+    "Elemental":"Hydro",
+    "Weapon":"Catalyst",
+    "Gender":"Female",
+    "Region":"Nod-Krai",
+    "Sustainable":false
+  },
+  {
+    "Name":"Zibai",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Rarity":5,
+    "Elemental":"Geo",
+    "Weapon":"Sword",
+    "Gender":"Female",
+    "Region":"Liyue",
+    "Sustainable":false
+  },
+  {
+    "Name":"Illuga",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Rarity":4,
+    "Elemental":"Geo",
+    "Weapon":"Polearm",
+    "Gender":"Male",
+    "Region":"Nod-Krai",
+    "Sustainable":false
+  },
+  {
+    "Name":"Varka",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Rarity":5,
+    "Elemental":"Anemo",
+    "Weapon":"Claymore",
+    "Gender":"Male",
+    "Region":"Mondstadt",
+    "Sustainable":false
   }
 ]
