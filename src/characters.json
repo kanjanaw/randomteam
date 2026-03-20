@@ -1131,7 +1131,7 @@
   },
   {
     "Name":"Durin",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/durin.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Sword",
@@ -1141,7 +1141,7 @@
   },
   {
     "Name":"Jahoda",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/jahoda.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Bow",
@@ -1151,7 +1151,7 @@
   },
   {
     "Name":"Columbina",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/columbina.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
@@ -1161,7 +1161,7 @@
   },
   {
     "Name":"Zibai",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/zibai.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Sword",
@@ -1171,7 +1171,7 @@
   },
   {
     "Name":"Illuga",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/illuga.png",
     "Rarity":4,
     "Elemental":"Geo",
     "Weapon":"Polearm",
@@ -1181,7 +1181,7 @@
   },
   {
     "Name":"Varka",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/varka.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Claymore",
