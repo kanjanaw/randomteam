@@ -1111,7 +1111,7 @@
   },
   {
     "Name":"F Manekin",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/fmanekin.png",
     "Rarity":4,
     "Elemental":"All",
     "Weapon":"Sword",
@@ -1121,7 +1121,7 @@
   },
   {
     "Name":"M Manekin",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/mmanekin.png",
     "Rarity":4,
     "Elemental":"All",
     "Weapon":"Sword",
