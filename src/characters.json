@@ -1188,5 +1188,45 @@
     "Gender":"Male",
     "Region":"Mondstadt",
     "Sustainable":false
+  },
+  {
+    "Name":"Linnea",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/linnea.png",
+    "Rarity":5,
+    "Elemental":"Geo",
+    "Weapon":"Bow",
+    "Gender":"Female",
+    "Region":"Nod-Krai",
+    "Sustainable":true
+  },
+  {
+    "Name":"Nicole",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/nicole.png",
+    "Rarity":5,
+    "Elemental":"Pyro",
+    "Weapon":"Catalyst",
+    "Gender":"Female",
+    "Region":"Mondstadt",
+    "Sustainable":true
+  },
+  {
+    "Name":"Prune",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/prune.png",
+    "Rarity":4,
+    "Elemental":"Anemo",
+    "Weapon":"Catalyst",
+    "Gender":"Female",
+    "Region":"Mondstadt",
+    "Sustainable":false
+  },
+  {
+    "Name":"Lohen",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/lohen.png",
+    "Rarity":5,
+    "Elemental":"Cryo",
+    "Weapon":"Polearm",
+    "Gender":"Male",
+    "Region":"Mondstadt",
+    "Sustainable":false
   }
 ]
