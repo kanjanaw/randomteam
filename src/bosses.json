@@ -316,5 +316,41 @@
     "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/herra.png",
     "location": "Nod-Krai",
     "boss_type": "World Boss"
+  },
+  {
+    "name": "Super-Heavy Landrover: Mechanized Fortress",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/super-heavy.png",
+    "location": "Nod-Krai",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Lord of the Hidden Depths - Whisperer of Nightmares",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/hidden-depths.png",
+    "location": "Nod-Krai",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "The Doctor",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/the-doctor.png",
+    "location": "Nod-Krai",
+    "boss_type": "Weekly Boss"
+  },
+  {
+    "name": "Radiant Moongecko",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/moongecko.png",
+    "location": "Nod-Krai",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Watcher: Fallen Vigil",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/watcher.png",
+    "location": "Nod-Krai",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Il Dottore",
+    "image": "https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bosses/il-dottore.png",
+    "location": "Sumeru",
+    "boss_type": "Weekly Boss"
   }
 ]
