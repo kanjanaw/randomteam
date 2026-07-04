@@ -1228,5 +1228,15 @@
     "Gender":"Male",
     "Region":"Mondstadt",
     "Sustainable":false
+  },
+  {
+    "Name":"Sandrone",
+    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/sandrone.png",
+    "Rarity":5,
+    "Elemental":"Cryo",
+    "Weapon":"Claymore",
+    "Gender":"Female",
+    "Region":"Snezhnaya",
+    "Sustainable":false
   }
 ]
