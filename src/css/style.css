@@ -195,10 +195,13 @@ body {
   flex: 0 0 10% !important;
   width: 10% !important;
 }
-
 .row-cols-7 > * {
   flex: 0 0 14.28% !important;
   width: 14.28% !important;
+}
+.row-cols-6 > * {
+  flex: 0 0 16.66% !important;
+  width: 16.66% !important;
 }
 
 .g-2 {
@@ -291,9 +294,14 @@ body {
 
 /* ---------------------- Tablet (≤1199px) ---------------------- */
 @media (max-width: 1199px) {
-  .row-cols-10 > * {
+  .row-cols-md-6 > * {
     flex: 0 0 12.5% !important;
     width: 12.5% !important;
+  }
+
+  .row-cols-md-3 > * {
+    flex: 0 0 33.33% !important;
+    width: 33.33% !important;
   }
 
   #dropdownRegion {
@@ -342,6 +350,9 @@ body {
   .row-cols-10 > * {
     flex: 0 0 20% !important;
     width: 20% !important;
+  }
+  .scene {
+    height: 160px !important;
   }
 
   .name {
@@ -405,7 +416,7 @@ body {
     height: 100vh;
     background: #23242A;
     border-right: 1px solid rgba(255,255,255,.25);
-    overflow: auto;
+    overflow: hidden;
     transition: all .3s ease;
     padding-top: 1rem;
     z-index: 1050;
@@ -527,4 +538,75 @@ body {
     background: transparent;
     color: #fff;
     padding: 6px 0;
+}
+
+.player-owner {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: rgba(0,0,0,.7);
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.player-owner-back {
+    width: 100%;
+    height: 30%;
+    padding-top: 17%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(
+        to top,
+        rgba(106, 90, 205, 0.95) 0%,
+        rgba(106, 90, 205, 0.5) 40%,
+        rgba(106, 90, 205, 0.25) 70%,
+        rgba(106, 90, 205, 0) 100%
+    );
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px 0px 10px 10px;
+    filter: drop-shadow(0 2px 1px #000);
+    text-shadow: 0 0 10px rgba(72, 61, 139, 0.8), 
+                 0 0 20px rgba(0, 0, 0, 0.6);
+
+}
+
+.form-control-custom {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    background-color: #28292E;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 12px 16px;
+
+    transition: all 0.2s ease;
+}
+
+.form-control-custom::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-control-custom:focus {
+    background-color: #28292E;
+    color: #ffffff;
+
+    border-color: #CD8DE3;
+    box-shadow: 0 0 0 0.2rem rgba(205, 141, 227, 0.25);
+
+    outline: none;
+}
+
+.form-control-custom:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
 }
