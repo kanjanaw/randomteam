@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #24252b !important;
+    background-color: #23242A!important;
     color: white !important;
     font-family: 'Anuphan', sans-serif !important;
 }
@@ -22,15 +22,15 @@ body {
   background-repeat: no-repeat;     
   background-size: cover; 
   position: relative;
-  background-image: url('https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bg/card-bg-5.png');
+  background-image: url('../images/bg/card-bg-5.png');
 }
 
 .character-block-img.rarity-4 {
-  background-image: url('https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bg/card-bg-4.png');
+  background-image: url('../images/bg/card-bg-4.png');
 }
 
 .character-block-img.rarity-5 {
-  background-image: url('https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/bg/card-bg-5.png');
+  background-image: url('../images/bg/card-bg-5.png');
 }
 
 .name {
@@ -359,4 +359,107 @@ body {
     left: 3px;
     top: 3px;
   }
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 100vh;
+    background: #23242A;
+    border-right: 1px solid rgba(255,255,255,.25);
+    overflow: auto;
+    transition: width .3s ease;
+    padding-top: 1rem;
+}
+
+.sidebar:hover{
+    width: 285px;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    height: 50px;
+    padding: 0 22px;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    background: transparent;
+}
+
+.menu-item:hover{
+    background: rgba(255,255,255,.1);
+    color: #fff;
+}
+
+.menu-item.active {
+  background: #cd8de3;
+}
+
+.menu-icon{
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    fill: currentColor;
+}
+
+.menu-text{
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+
+.sidebar:hover .menu-text{
+    opacity: 1;
+}
+.main-content{
+    margin-left: 70px;
+    padding: 30px;
+}
+
+.menu-icon{
+    width:20px;
+    height:20px;
+    min-width:20px;
+    fill: white;
+}
+
+.challenge-card {
+  background-color: #28292e;
+  border-radius: 10px;
+}
+
+
+.border-white-25 {
+  border: 1px solid rgba(255,255,255,.25);
+}
+
+.challenge-label {
+  background-color: #23242A;
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 0px 0px 10px 10px;
+  border-top: 0px;
+  color: #bbb;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all .2s ease;
+}
+
+.challenge-label i {
+  font-size: 14px;
+}
+
+/* Hover Effect */
+.challenge-card:hover .challenge-label, .challenge-label.main {
+    background-color: #cd8de3;
+    color: black;
+    border-color: #cd8de3;
+}
+
+.challenge-card:hover .challenge-label i {
+    color: black;
 }

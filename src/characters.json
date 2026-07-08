@@ -1,7 +1,7 @@
 [
   {
     "Name":"Amber",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/amber.png",
+    "Image":"src/images/characters/amber.png",
     "Rarity":4,
     "Elemental":"Pyro",
     "Weapon":"Bow",
@@ -11,7 +11,7 @@
   },
   {
     "Name":"Kaeya",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kaeya.png",
+    "Image":"src/images/characters/kaeya.png",
     "Rarity":4,
     "Elemental":"Cryo",
     "Weapon":"Sword",
@@ -21,7 +21,7 @@
   },
   {
     "Name":"Lisa",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/lisa.png",
+    "Image":"src/images/characters/lisa.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Catalyst",
@@ -31,7 +31,7 @@
   },
   {
     "Name":"Barbara",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/barbara.png",
+    "Image":"src/images/characters/barbara.png",
     "Rarity":4,
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
@@ -41,7 +41,7 @@
   },
   {
     "Name":"Razor",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/razor.png",
+    "Image":"src/images/characters/razor.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Claymore",
@@ -51,7 +51,7 @@
   },
   {
     "Name":"Xiangling",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/xiangling.png",
+    "Image":"src/images/characters/xiangling.png",
     "Rarity":4,
     "Elemental":"Pyro",
     "Weapon":"Polearm",
@@ -61,7 +61,7 @@
   },
   {
     "Name":"Beidou",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/beidou.png",
+    "Image":"src/images/characters/beidou.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Claymore",
@@ -71,7 +71,7 @@
   },
   {
     "Name":"Xingqiu",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/xingqiu.png",
+    "Image":"src/images/characters/xingqiu.png",
     "Rarity":4,
     "Elemental":"Hydro",
     "Weapon":"Sword",
@@ -81,7 +81,7 @@
   },
   {
     "Name":"Ningguang",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ningguang.png",
+    "Image":"src/images/characters/ningguang.png",
     "Rarity":4,
     "Elemental":"Geo",
     "Weapon":"Catalyst",
@@ -91,7 +91,7 @@
   },
   {
     "Name":"Fischl",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/fischl.png",
+    "Image":"src/images/characters/fischl.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Bow",
@@ -101,7 +101,7 @@
   },
   {
     "Name":"Bennett",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/bennett.png",
+    "Image":"src/images/characters/bennett.png",
     "Rarity":4,
     "Elemental":"Pyro",
     "Weapon":"Sword",
@@ -111,7 +111,7 @@
   },
   {
     "Name":"Noelle",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/noelle.png",
+    "Image":"src/images/characters/noelle.png",
     "Rarity":4,
     "Elemental":"Geo",
     "Weapon":"Claymore",
@@ -121,7 +121,7 @@
   },
   {
     "Name":"Chongyun",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/chongyun.png",
+    "Image":"src/images/characters/chongyun.png",
     "Rarity":4,
     "Elemental":"Cryo",
     "Weapon":"Claymore",
@@ -131,7 +131,7 @@
   },
   {
     "Name":"Sucrose",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/sucrose.png",
+    "Image":"src/images/characters/sucrose.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
@@ -141,7 +141,7 @@
   },
   {
     "Name":"Jean",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/jean.png",
+    "Image":"src/images/characters/jean.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Sword",
@@ -151,7 +151,7 @@
   },
   {
     "Name":"Diluc",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/diluc.png",
+    "Image":"src/images/characters/diluc.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Claymore",
@@ -161,7 +161,7 @@
   },
   {
     "Name":"Qiqi",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/qiqi.png",
+    "Image":"src/images/characters/qiqi.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Sword",
@@ -171,7 +171,7 @@
   },
   {
     "Name":"Mona",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/mona.png",
+    "Image":"src/images/characters/mona.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
@@ -181,7 +181,7 @@
   },
   {
     "Name":"Keqing",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/keqing.png",
+    "Image":"src/images/characters/keqing.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Sword",
@@ -191,7 +191,7 @@
   },
   {
     "Name":"Venti",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/venti.png",
+    "Image":"src/images/characters/venti.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Bow",
@@ -201,7 +201,7 @@
   },
   {
     "Name":"Klee",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/klee.png",
+    "Image":"src/images/characters/klee.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Catalyst",
@@ -211,7 +211,7 @@
   },
   {
     "Name":"Traveler",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"src/images/characters/traveler.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Sword",
@@ -221,7 +221,7 @@
   },
   {
     "Name":"Diona",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/diona.png",
+    "Image":"src/images/characters/diona.png",
     "Rarity":4,
     "Elemental":"Cryo",
     "Weapon":"Bow",
@@ -231,7 +231,7 @@
   },
   {
     "Name":"Tartaglia",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/tartaglia.png",
+    "Image":"src/images/characters/tartaglia.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Bow",
@@ -241,7 +241,7 @@
   },
   {
     "Name":"Xinyan",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/xinyan.png",
+    "Image":"src/images/characters/xinyan.png",
     "Rarity":4,
     "Elemental":"Pyro",
     "Weapon":"Claymore",
@@ -251,7 +251,7 @@
   },
   {
     "Name":"Zhongli",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/zhongli.png",
+    "Image":"src/images/characters/zhongli.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Polearm",
@@ -261,7 +261,7 @@
   },
   {
     "Name":"Traveler",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"src/images/characters/traveler.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Sword",
@@ -271,7 +271,7 @@
   },
   {
     "Name":"Albedo",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/albedo.png",
+    "Image":"src/images/characters/albedo.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Sword",
@@ -281,7 +281,7 @@
   },
   {
     "Name":"Ganyu",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ganyu.png",
+    "Image":"src/images/characters/ganyu.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Bow",
@@ -291,7 +291,7 @@
   },
   {
     "Name":"Xiao",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/xiao.png",
+    "Image":"src/images/characters/xiao.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Polearm",
@@ -301,7 +301,7 @@
   },
   {
     "Name":"Hu Tao",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/hu-tao.png",
+    "Image":"src/images/characters/hu-tao.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Polearm",
@@ -311,7 +311,7 @@
   },
   {
     "Name":"Rosaria",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/rosaria.png",
+    "Image":"src/images/characters/rosaria.png",
     "Rarity":4,
     "Elemental":"Cryo",
     "Weapon":"Polearm",
@@ -321,7 +321,7 @@
   },
   {
     "Name":"Yanfei",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/yanfei.png",
+    "Image":"src/images/characters/yanfei.png",
     "Rarity":4,
     "Elemental":"Pyro",
     "Weapon":"Catalyst",
@@ -331,7 +331,7 @@
   },
   {
     "Name":"Eula",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/eula.png",
+    "Image":"src/images/characters/eula.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Claymore",
@@ -341,7 +341,7 @@
   },
   {
     "Name":"Kaedehara Kazuha",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kaedehara-kazuha.png",
+    "Image":"src/images/characters/kaedehara-kazuha.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Sword",
@@ -351,7 +351,7 @@
   },
   {
     "Name":"Traveler",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"src/images/characters/traveler.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Sword",
@@ -361,7 +361,7 @@
   },
   {
     "Name":"Kamisato Ayaka",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kamisato-ayaka.png",
+    "Image":"src/images/characters/kamisato-ayaka.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Sword",
@@ -371,7 +371,7 @@
   },
   {
     "Name":"Sayu",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/sayu.png",
+    "Image":"src/images/characters/sayu.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Claymore",
@@ -381,7 +381,7 @@
   },
   {
     "Name":"Yoimiya",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/yoimiya.png",
+    "Image":"src/images/characters/yoimiya.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Bow",
@@ -391,7 +391,7 @@
   },
   {
     "Name":"Kujou Sara",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kujou-sara.png",
+    "Image":"src/images/characters/kujou-sara.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Bow",
@@ -401,7 +401,7 @@
   },
   {
     "Name":"Raiden Shogun",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/raiden-shogun.png",
+    "Image":"src/images/characters/raiden-shogun.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Polearm",
@@ -411,7 +411,7 @@
   },
   {
     "Name":"Aloy",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/aloy.png",
+    "Image":"src/images/characters/aloy.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Bow",
@@ -421,7 +421,7 @@
   },
   {
     "Name":"Sangonomiya Kokomi",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/sangonomiya-kokomi.png",
+    "Image":"src/images/characters/sangonomiya-kokomi.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
@@ -431,7 +431,7 @@
   },
   {
     "Name":"Thoma",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/thoma.png",
+    "Image":"src/images/characters/thoma.png",
     "Rarity":4,
     "Elemental":"Pyro",
     "Weapon":"Polearm",
@@ -441,7 +441,7 @@
   },
   {
     "Name":"Gorou",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/gorou.png",
+    "Image":"src/images/characters/gorou.png",
     "Rarity":4,
     "Elemental":"Geo",
     "Weapon":"Bow",
@@ -451,7 +451,7 @@
   },
   {
     "Name":"Arataki Itto",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/arataki-itto.png",
+    "Image":"src/images/characters/arataki-itto.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Claymore",
@@ -461,7 +461,7 @@
   },
   {
     "Name":"Yun Jin",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/yun-jin.png",
+    "Image":"src/images/characters/yun-jin.png",
     "Rarity":4,
     "Elemental":"Geo",
     "Weapon":"Polearm",
@@ -471,7 +471,7 @@
   },
   {
     "Name":"Shenhe",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/shenhe.png",
+    "Image":"src/images/characters/shenhe.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Polearm",
@@ -481,7 +481,7 @@
   },
   {
     "Name":"Yae Miko",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/yae-miko.png",
+    "Image":"src/images/characters/yae-miko.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Catalyst",
@@ -491,7 +491,7 @@
   },
   {
     "Name":"Kamisato Ayato",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kamisato-ayato.png",
+    "Image":"src/images/characters/kamisato-ayato.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Sword",
@@ -501,7 +501,7 @@
   },
   {
     "Name":"Yelan",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/yelan.png",
+    "Image":"src/images/characters/yelan.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Bow",
@@ -511,7 +511,7 @@
   },
   {
     "Name":"Kuki Shinobu",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kuki-shinobu.png",
+    "Image":"src/images/characters/kuki-shinobu.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Sword",
@@ -521,7 +521,7 @@
   },
   {
     "Name":"Shikanoin Heizou",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/shikanoin-heizou.png",
+    "Image":"src/images/characters/shikanoin-heizou.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
@@ -531,7 +531,7 @@
   },
   {
     "Name":"Traveler",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"src/images/characters/traveler.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Sword",
@@ -541,7 +541,7 @@
   },
   {
     "Name":"Collei",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/collei.png",
+    "Image":"src/images/characters/collei.png",
     "Rarity":4,
     "Elemental":"Dendro",
     "Weapon":"Bow",
@@ -551,7 +551,7 @@
   },
   {
     "Name":"Tighnari",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/tighnari.png",
+    "Image":"src/images/characters/tighnari.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Bow",
@@ -561,7 +561,7 @@
   },
   {
     "Name":"Dori",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/dori.png",
+    "Image":"src/images/characters/dori.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Claymore",
@@ -571,7 +571,7 @@
   },
   {
     "Name":"Candace",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/candace.png",
+    "Image":"src/images/characters/candace.png",
     "Rarity":4,
     "Elemental":"Hydro",
     "Weapon":"Polearm",
@@ -581,7 +581,7 @@
   },
   {
     "Name":"Cyno",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/cyno.png",
+    "Image":"src/images/characters/cyno.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Polearm",
@@ -591,7 +591,7 @@
   },
   {
     "Name":"Nilou",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/nilou.png",
+    "Image":"src/images/characters/nilou.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Sword",
@@ -601,7 +601,7 @@
   },
   {
     "Name":"Nahida",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/nahida.png",
+    "Image":"src/images/characters/nahida.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Catalyst",
@@ -611,7 +611,7 @@
   },
   {
     "Name":"Layla",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/layla.png",
+    "Image":"src/images/characters/layla.png",
     "Rarity":4,
     "Elemental":"Cryo",
     "Weapon":"Sword",
@@ -621,7 +621,7 @@
   },
   {
     "Name":"Faruzan",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/faruzan.png",
+    "Image":"src/images/characters/faruzan.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Bow",
@@ -631,7 +631,7 @@
   },
   {
     "Name":"Wanderer",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/wanderer.png",
+    "Image":"src/images/characters/wanderer.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
@@ -641,7 +641,7 @@
   },
   {
     "Name":"Yaoyao",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/yaoyao.png",
+    "Image":"src/images/characters/yaoyao.png",
     "Rarity":4,
     "Elemental":"Dendro",
     "Weapon":"Polearm",
@@ -651,7 +651,7 @@
   },
   {
     "Name":"Alhaitham",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/alhaitham.png",
+    "Image":"src/images/characters/alhaitham.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Sword",
@@ -661,7 +661,7 @@
   },
   {
     "Name":"Dehya",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/dehya.png",
+    "Image":"src/images/characters/dehya.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Claymore",
@@ -671,7 +671,7 @@
   },
   {
     "Name":"Mika",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/mika.png",
+    "Image":"src/images/characters/mika.png",
     "Rarity":4,
     "Elemental":"Cryo",
     "Weapon":"Polearm",
@@ -681,7 +681,7 @@
   },
   {
     "Name":"Kaveh",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kaveh.png",
+    "Image":"src/images/characters/kaveh.png",
     "Rarity":4,
     "Elemental":"Dendro",
     "Weapon":"Claymore",
@@ -691,7 +691,7 @@
   },
   {
     "Name":"Baizhu",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/baizhu.png",
+    "Image":"src/images/characters/baizhu.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Catalyst",
@@ -701,7 +701,7 @@
   },
   {
     "Name":"Kirara",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kirara.png",
+    "Image":"src/images/characters/kirara.png",
     "Rarity":4,
     "Elemental":"Dendro",
     "Weapon":"Sword",
@@ -711,7 +711,7 @@
   },
   {
     "Name":"Traveler",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"src/images/characters/traveler.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Sword",
@@ -721,7 +721,7 @@
   },
   {
     "Name":"Lynette",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/lynette.png",
+    "Image":"src/images/characters/lynette.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Sword",
@@ -731,7 +731,7 @@
   },
   {
     "Name":"Lyney",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/lyney.png",
+    "Image":"src/images/characters/lyney.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Bow",
@@ -741,7 +741,7 @@
   },
   {
     "Name":"Freminet",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/freminet.png",
+    "Image":"src/images/characters/freminet.png",
     "Rarity":4,
     "Elemental":"Cryo",
     "Weapon":"Claymore",
@@ -751,7 +751,7 @@
   },
   {
     "Name":"Neuvillette",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/neuvillette.png",
+    "Image":"src/images/characters/neuvillette.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
@@ -761,7 +761,7 @@
   },
   {
     "Name":"Wriothesley",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/wriothesley.png",
+    "Image":"src/images/characters/wriothesley.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Catalyst",
@@ -771,7 +771,7 @@
   },
   {
     "Name":"Charlotte",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/charlotte.png",
+    "Image":"src/images/characters/charlotte.png",
     "Rarity":4,
     "Elemental":"Cryo",
     "Weapon":"Catalyst",
@@ -781,7 +781,7 @@
   },
   {
     "Name":"Furina",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/furina.png",
+    "Image":"src/images/characters/furina.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Sword",
@@ -791,7 +791,7 @@
   },
   {
     "Name":"Navia",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/navia.png",
+    "Image":"src/images/characters/navia.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Claymore",
@@ -801,7 +801,7 @@
   },
   {
     "Name":"Chevreuse",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/chevreuse.png",
+    "Image":"src/images/characters/chevreuse.png",
     "Rarity":4,
     "Elemental":"Pyro",
     "Weapon":"Polearm",
@@ -811,7 +811,7 @@
   },
   {
     "Name":"Gaming",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/gaming.png",
+    "Image":"src/images/characters/gaming.png",
     "Rarity":4,
     "Elemental":"Pyro",
     "Weapon":"Claymore",
@@ -821,7 +821,7 @@
   },
   {
     "Name":"Xianyun",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/xianyun.png",
+    "Image":"src/images/characters/xianyun.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
@@ -831,7 +831,7 @@
   },
   {
     "Name":"Chiori",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/chiori.png",
+    "Image":"src/images/characters/chiori.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Sword",
@@ -841,7 +841,7 @@
   },
   {
     "Name":"Arlecchino",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/arlecchino.png",
+    "Image":"src/images/characters/arlecchino.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Polearm",
@@ -851,7 +851,7 @@
   },
   {
     "Name":"Sethos",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/sethos.png",
+    "Image":"src/images/characters/sethos.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Bow",
@@ -861,7 +861,7 @@
   },
   {
     "Name":"Clorinde",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/clorinde.png",
+    "Image":"src/images/characters/clorinde.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Sword",
@@ -871,7 +871,7 @@
   },
   {
     "Name":"Sigewinne",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/sigewinne.png",
+    "Image":"src/images/characters/sigewinne.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Bow",
@@ -881,7 +881,7 @@
   },
   {
     "Name":"Emilie",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/emilie.png",
+    "Image":"src/images/characters/emilie.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Polearm",
@@ -891,7 +891,7 @@
   },
   {
     "Name":"Traveler",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/traveler.png",
+    "Image":"src/images/characters/traveler.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Sword",
@@ -901,7 +901,7 @@
   },
   {
     "Name":"Kachina",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kachina.png",
+    "Image":"src/images/characters/kachina.png",
     "Rarity":4,
     "Elemental":"Geo",
     "Weapon":"Polearm",
@@ -911,7 +911,7 @@
   },
   {
     "Name":"Mualani",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/mualani.png",
+    "Image":"src/images/characters/mualani.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
@@ -921,7 +921,7 @@
   },
   {
     "Name":"Kinich",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/kinich.png",
+    "Image":"src/images/characters/kinich.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Claymore",
@@ -931,7 +931,7 @@
   },
   {
     "Name":"Xilonen",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/xilonen.png",
+    "Image":"src/images/characters/xilonen.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Sword",
@@ -941,7 +941,7 @@
   },
   {
     "Name":"Ororon",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ororon.png",
+    "Image":"src/images/characters/ororon.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Bow",
@@ -951,7 +951,7 @@
   },
   {
     "Name":"Chasca",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/chasca.png",
+    "Image":"src/images/characters/chasca.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Bow",
@@ -961,7 +961,7 @@
   },
   {
     "Name":"Citlali",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/citlali.png",
+    "Image":"src/images/characters/citlali.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Catalyst",
@@ -971,7 +971,7 @@
   },
   {
     "Name":"Mavuika",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/mavuika.png",
+    "Image":"src/images/characters/mavuika.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Claymore",
@@ -981,7 +981,7 @@
   },
   {
     "Name":"Lan Yan",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/lan-yan.png",
+    "Image":"src/images/characters/lan-yan.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
@@ -991,7 +991,7 @@
   },
   {
     "Name":"Yumemizuki Mizuki",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/yumemizuki-mizuki.png",
+    "Image":"src/images/characters/yumemizuki-mizuki.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
@@ -1001,7 +1001,7 @@
   },
   {
     "Name":"Iansan",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/iansan.png",
+    "Image":"src/images/characters/iansan.png",
     "Rarity":4,
     "Elemental":"Electro",
     "Weapon":"Polearm",
@@ -1011,7 +1011,7 @@
   },
   {
     "Name":"Varesa",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/varesa.png",
+    "Image":"src/images/characters/varesa.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Catalyst",
@@ -1021,7 +1021,7 @@
   },
   {
     "Name":"Ifa",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ifa.png",
+    "Image":"src/images/characters/ifa.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
@@ -1031,7 +1031,7 @@
   },
   {
     "Name":"Escoffier",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/escoffier.png",
+    "Image":"src/images/characters/escoffier.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Polearm",
@@ -1041,7 +1041,7 @@
   },
   {
     "Name":"Dahlia",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/dahlia.png",
+    "Image":"src/images/characters/dahlia.png",
     "Rarity":4,
     "Elemental":"Hydro",
     "Weapon":"Sword",
@@ -1051,7 +1051,7 @@
   },
   {
     "Name":"Skirk",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/skirk.png",
+    "Image":"src/images/characters/skirk.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Sword",
@@ -1061,7 +1061,7 @@
   },
   {
     "Name":"Ineffa",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/ineffa.png",
+    "Image":"src/images/characters/ineffa.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Polearm",
@@ -1071,7 +1071,7 @@
   },
   {
     "Name":"Lauma",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/lauma.png",
+    "Image":"src/images/characters/lauma.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Catalyst",
@@ -1081,7 +1081,7 @@
   },
   {
     "Name":"Aino",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/aino.png",
+    "Image":"src/images/characters/aino.png",
     "Rarity":4,
     "Elemental":"Hydro",
     "Weapon":"Claymore",
@@ -1091,7 +1091,7 @@
   },
   {
     "Name":"Flins",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/flins.png",
+    "Image":"src/images/characters/flins.png",
     "Rarity":5,
     "Elemental":"Electro",
     "Weapon":"Polearm",
@@ -1101,7 +1101,7 @@
   },
   {
     "Name":"Nefer",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/nefer.png",
+    "Image":"src/images/characters/nefer.png",
     "Rarity":5,
     "Elemental":"Dendro",
     "Weapon":"Catalyst",
@@ -1111,7 +1111,7 @@
   },
   {
     "Name":"F Manekin",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/fmanekin.png",
+    "Image":"src/images/characters/fmanekin.png",
     "Rarity":4,
     "Elemental":"All",
     "Weapon":"Sword",
@@ -1121,7 +1121,7 @@
   },
   {
     "Name":"M Manekin",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/mmanekin.png",
+    "Image":"src/images/characters/mmanekin.png",
     "Rarity":4,
     "Elemental":"All",
     "Weapon":"Sword",
@@ -1131,7 +1131,7 @@
   },
   {
     "Name":"Durin",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/durin.png",
+    "Image":"src/images/characters/durin.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Sword",
@@ -1141,7 +1141,7 @@
   },
   {
     "Name":"Jahoda",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/jahoda.png",
+    "Image":"src/images/characters/jahoda.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Bow",
@@ -1151,7 +1151,7 @@
   },
   {
     "Name":"Columbina",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/columbina.png",
+    "Image":"src/images/characters/columbina.png",
     "Rarity":5,
     "Elemental":"Hydro",
     "Weapon":"Catalyst",
@@ -1161,7 +1161,7 @@
   },
   {
     "Name":"Zibai",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/zibai.png",
+    "Image":"src/images/characters/zibai.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Sword",
@@ -1171,7 +1171,7 @@
   },
   {
     "Name":"Illuga",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/illuga.png",
+    "Image":"src/images/characters/illuga.png",
     "Rarity":4,
     "Elemental":"Geo",
     "Weapon":"Polearm",
@@ -1181,7 +1181,7 @@
   },
   {
     "Name":"Varka",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/varka.png",
+    "Image":"src/images/characters/varka.png",
     "Rarity":5,
     "Elemental":"Anemo",
     "Weapon":"Claymore",
@@ -1191,7 +1191,7 @@
   },
   {
     "Name":"Linnea",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/linnea.png",
+    "Image":"src/images/characters/linnea.png",
     "Rarity":5,
     "Elemental":"Geo",
     "Weapon":"Bow",
@@ -1201,7 +1201,7 @@
   },
   {
     "Name":"Nicole",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/nicole.png",
+    "Image":"src/images/characters/nicole.png",
     "Rarity":5,
     "Elemental":"Pyro",
     "Weapon":"Catalyst",
@@ -1211,7 +1211,7 @@
   },
   {
     "Name":"Prune",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/prune.png",
+    "Image":"src/images/characters/prune.png",
     "Rarity":4,
     "Elemental":"Anemo",
     "Weapon":"Catalyst",
@@ -1221,7 +1221,7 @@
   },
   {
     "Name":"Lohen",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/lohen.png",
+    "Image":"src/images/characters/lohen.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Polearm",
@@ -1231,7 +1231,7 @@
   },
   {
     "Name":"Sandrone",
-    "Image":"https://raw.githubusercontent.com/kanjanaw/randomteam/main/src/images/characters/sandrone.png",
+    "Image":"src/images/characters/sandrone.png",
     "Rarity":5,
     "Elemental":"Cryo",
     "Weapon":"Claymore",
