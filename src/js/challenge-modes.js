@@ -41,7 +41,7 @@ function createChallengeCard(item, isMain = false) {
 
                 <div class="card-body p-4">
                     <h6 class="fw-bold">${item.title}</h6>
-                    <p class="mt-3 mb-0">${item.description}</p>
+                    <p class="mt-3 mb-0 text-description">${item.description}</p>
                 </div>
             </div>
         </div>

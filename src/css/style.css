@@ -299,6 +299,42 @@ body {
   #dropdownRegion {
     min-width: 200px;
   }
+
+    .sidebar {
+        width: 280px !important;
+        transform: translateX(-100%);
+        transition: transform .25s ease;
+        padding-top: 80px !important;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .sidebar:hover {
+        width: 280px;
+    }
+
+    .sidebar .menu-text {
+        opacity: 1;
+    }
+
+    .sidebar-toggle {
+        display: block !important;
+    }
+
+    .sidebar-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,.55);
+        z-index: 1040;
+    }
+
+    .sidebar-overlay.active {
+        display: block;
+    }
+
 }
 
 /* ---------------------- Mobile (≤575px) ---------------------- */
@@ -370,12 +406,18 @@ body {
     background: #23242A;
     border-right: 1px solid rgba(255,255,255,.25);
     overflow: auto;
-    transition: width .3s ease;
+    transition: all .3s ease;
     padding-top: 1rem;
+    z-index: 1050;
 }
 
 .sidebar:hover{
     width: 285px;
+}
+
+.sidebar-toggle {
+    display: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .menu-item{
@@ -462,4 +504,27 @@ body {
 
 .challenge-card:hover .challenge-label i {
     color: black;
+}
+.text-description {
+  font-size: 1rem;
+}
+
+.header-btn {
+  font-size: 1.85rem;
+}
+
+.sidebar-toggle {
+    display: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    background: #23242A;
+    position: fixed;
+    top: 0;
+    z-index: 1060;
+}
+
+.sidebar-toggle button {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    padding: 6px 0;
 }
