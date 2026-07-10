@@ -610,3 +610,36 @@ body {
     opacity: 0.6;
     cursor: not-allowed;
 }
+
+.character-icon {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 10px;
+}
+
+/* Tablet */
+@media (max-width: 991.98px) {
+  .character-icon {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 8px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  .character-icon {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 6px;
+  }
+}
+
+/* Mobile จอเล็ก */
+@media (max-width: 479.98px) {
+  .character-icon {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.character-icon > * {
+  min-width: 0;
+}

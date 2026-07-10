@@ -15,12 +15,22 @@
 
 <body>
 <div id="sidebar-container"></div>
-<div class="container my-5 pt-5 text-center">
-    <h3>Coming Soon</h3>
+<div class="container my-5 pt-5">
+    <div class="card-reveal mx-auto" id="front-card-reveal" style="width: 180px; height: auto;"></div>
+</div>
+<div class="container my-5">
+    <div
+        id="card-random-number"
+        class="row row-cols-7 row-cols-md-3 g-3 justify-content-center">
+    </div>
+    <div class="d-flex gap-2 justify-content-center mt-5">
+        <button class="btn btn-purple" id="shuffleBtn" style="padding: 10px 15px !important;">Draw a card</button>
+        <button class="btn btn-purple-white" id="resetBtn">Reset</button>
+    </div>
 </div>
 </body>
 </html>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-<script src="src/js/script.js"></script>
+<script src="src/js/face-up-choice.js"></script>
 <script src="src/js/sidebar.js"></script>

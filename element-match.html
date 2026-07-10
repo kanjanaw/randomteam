@@ -1,26 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" type="image/x-icon" href="src/images/icons/web.webp">
+
     <title>Random Team | Element Match</title>
+
     <link rel="stylesheet" href="src/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap"
+        rel="stylesheet"
+    >
 </head>
 
 <body>
+
 <div id="sidebar-container"></div>
-<div class="container my-5 pt-5 text-center">
-    <h3>Coming Soon</h3>
+
+<div class="container my-5 pt-5">
+
+
+
+    <!-- Random Element + Weapon -->
+    <div class="d-flex gap-4 justify-content-center flex-wrap">
+
+        <div class="card-element-match text-center">
+            <img
+                id="randomElementImage"
+                class="img-fluid mt-0" width="70"
+                src=""
+                alt=""
+            >
+
+            <p
+                id="randomElementName"
+                class="mt-2 mb-0"
+            ></p>
+        </div>
+
+        <div class="card-element-match text-center">
+            <img
+                id="randomWeaponImage"
+                class="img-fluid" width="75"
+                src=""
+                alt=""
+            >
+
+            <p
+                id="randomWeaponName"
+                class="mt-1 mb-0"
+            ></p>
+        </div>
+
+    </div>
+
+    <!-- Characters -->
+    <div
+        class="card text-white mt-5"
+        style="
+            background-color: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        "
+    >
+
+        <div
+            class="card-header d-flex justify-content-between align-items-center fw-bold"
+            style="
+                border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+            "
+        >
+            <span>Characters</span>
+
+            <span
+                id="matchedCharacterCount"
+                class="text-secondary fw-normal"
+            >
+                0 characters
+            </span>
+        </div>
+
+        <div class="card-body">
+
+            <div
+                id="characterList"
+                class="d-grid character-icon"
+            ></div>
+
+            <div
+                id="noMatchMessage"
+                class="text-center text-secondary py-4 d-none"
+            >
+                No characters match this element and weapon.
+            </div>
+
+        </div>
+
+    </div>
+
+        <!-- Reset -->
+    <div class="text-center mt-5">
+        <button
+            class="btn btn-purple-white mb-5"
+            id="resetBtn"
+            type="button"
+        >
+            Reset
+        </button>
+    </div>
+
 </div>
+
+<template id="matchedCharacterTemplate">
+    <div class="matched-character">
+        <div class="character-block-img ratio ratio-1x1 rounded-2 overflow-hidden">
+            <img
+                class="character-image w-100 h-100 object-fit-cover"
+                src=""
+                alt=""
+            >
+        </div>
+    </div>
+</template>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="src/js/element-match.js"></script>
+<script src="src/js/sidebar.js"></script>
+
 </body>
 </html>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-<script src="src/js/script.js"></script>
-<script src="src/js/sidebar.js"></script>
