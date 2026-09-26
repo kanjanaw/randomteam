@@ -1238,5 +1238,55 @@
     "Gender":"Female",
     "Region":"Snezhnaya",
     "Sustainable":false
-  }
+  },
+  {
+    "Name":"Odette",
+    "Image":"src/images/characters/odette.png",
+    "Rarity":5,
+    "Elemental":"Cryo",
+    "Weapon":"Sword",
+    "Gender":"Female",
+    "Region":"Snezhnaya",
+    "Sustainable":false
+  },
+  {
+    "Name":"Alyosha",
+    "Image":"src/images/characters/alyosha.png",
+    "Rarity":4,
+    "Elemental":"Electro",
+    "Weapon":"Polearm",
+    "Gender":"Male",
+    "Region":"Snezhnaya",
+    "Sustainable":true
+  },
+  {
+    "Name":"Traveler",
+    "Image":"src/images/characters/traveler.png",
+    "Rarity":5,
+    "Elemental":"Cryo",
+    "Weapon":"Sword",
+    "Gender":"All",
+    "Region":"Other",
+    "Sustainable":false
+  },
+  {
+    "Name":"Vesna",
+    "Image":"src/images/characters/vesna.png",
+    "Rarity":5,
+    "Elemental":"Anemo",
+    "Weapon":"Sword",
+    "Gender":"Female",
+    "Region":"Snezhnaya",
+    "Sustainable":false
+  },
+  {
+    "Name":"Vodyanitsa",
+    "Image":"src/images/characters/vodyanitsa.png",
+    "Rarity":5,
+    "Elemental":"Hydro",
+    "Weapon":"Catalyst",
+    "Gender":"Female",
+    "Region":"Snezhnaya",
+    "Sustainable":true
+  },
 ]
