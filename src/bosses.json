@@ -352,5 +352,23 @@
     "image": "src/images/bosses/il-dottore.png",
     "location": "Sumeru",
     "boss_type": "Weekly Boss"
-  }
+  },
+  {
+    "name": "Chimeric Winged Lion",
+    "image": "src/images/bosses/chimeric.png",
+    "location": "Snezhnaya",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Immortal Construct",
+    "image": "src/images/bosses/immortal.png",
+    "location": "Snezhnaya",
+    "boss_type": "World Boss"
+  },
+  {
+    "name": "Guardian Blade of Drifting Snow",
+    "image": "src/images/bosses/drifting-snow.png",
+    "location": "Snezhnaya",
+    "boss_type": "World Boss"
+  },
 ]
